@@ -4,4 +4,4 @@
 ```
 This plain javascript filter code can be used in any table. You can define your table your self
 ```
-P.S. You can change to selectHeader branch to see the version 1.1 which make a little change and can select head.
+P.S. You can change to __selectHeader__ branch to see the _version 1.1_ which make a little change and can select head.
