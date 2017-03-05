@@ -1,0 +1,53 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Table Filter">
+  <meta name="author" content="Lenny Duan">
+  <link rel="stylesheet" href="table.css">
+  <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body>
+  Head Input:
+  <select id="getElementById" onClick="getHeader()">
+    <option value=''>Select Header</option>
+  </select>
+  <br>
+  <input type="text" class="filterInput"id="headerInput" onClick="getHeader()" placeholder="Input the tag of one column">
+  <br>
+  Filter Input:
+  <br>
+  <input type="text" class="filterInput"id="filterInput" onkeyup="filterFunction()" placeholder="Search for the content match the input...">
+
+  <table id="myTable">
+    <tr class="header">
+      <th style="width:30%;">Name</th>
+      <th style="width:20%;">Country</th>
+      <th style="width:20%;">Date</th>
+      <th style="width:20%;">Cost</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Germany</td>
+      <td>04 Mar 2017</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>Ivy Lu</td>
+      <td>Canada</td>
+      <td>17 April 2017</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>Island Trading</td>
+      <td>UK</td>
+      <td>25 Sept 2016</td>
+      <td>600</td>
+    </tr>
+    <tr>
+      <td>Hongyi Duan</td>
+      <td>China</td>
+      <td>04 June 2017</td>
+      <td>1800</td>
+    </tr>
+  </table>
+</body>
