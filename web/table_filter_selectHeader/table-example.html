@@ -7,16 +7,10 @@
 </head>
 
 <body>
-  Head Input:
-  <select id="getElementById" onClick="getHeader()">
-    <option value=''>Select Header</option>
-  </select>
-  <br>
-  <input type="text" class="filterInput"id="headerInput" onClick="getHeader()" placeholder="Input the tag of one column">
   <br>
   Filter Input:
-  <br>
-  <input type="text" class="filterInput"id="filterInput" onkeyup="filterFunction()" placeholder="Search for the content match the input...">
+  <select id="selectedId"/>
+  <input type="text" id="filterInput" onkeyup="filterFunction()" placeholder="Search for input...">
 
   <table id="myTable">
     <tr class="header">
