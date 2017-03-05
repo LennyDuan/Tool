@@ -8,17 +8,23 @@
 
 <body>
   <!-- this is the only html for filter -->
-  Filter Input:
-  <select id="selectedId"/>
   <input type="text" id="filterInput" onkeyup="filterFunction()" placeholder="Search for input...">
   <!-- above is the only html for filter, can be used in any table -->
 
   <table id="myTable">
-    <tr class="header">
+    <tr class="header" id="headerColumns" onClick='showInputs()'>
       <th style="width:30%;">Name</th>
       <th style="width:20%;">Country</th>
       <th style="width:20%;">Date</th>
       <th style="width:20%;">Cost</th>
+    </tr>
+    <tr>
+      <td>Input Test</td>
+      <td>
+        <input type="text" id="" onkeyup="" placeholder="">
+      </td>
+      <td>04 Mar 2017</td>
+      <td>1200</td>
     </tr>
     <tr>
       <td>Alfreds Futterkiste</td>

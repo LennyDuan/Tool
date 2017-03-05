@@ -4,18 +4,29 @@ document.addEventListener('DOMContentLoaded', function() {
   setHeader();
 }, false);
 
-// Add select options from list of head
+// Add head to array
+var headers = [];
 function setHeader() {
   var table = document.getElementById("myTable");
-  var select = document.getElementById("selectedId");
   var head = table.getElementsByTagName("tr")[0].getElementsByTagName("th");
   for (var j = 0; j < head.length; j++) {
     var val = head[j].innerHTML;
-    var opt = document.createElement('option');
-    opt.value = val;
-    opt.innerHTML = val;
-    select.appendChild(opt);
+    headers.push(val);
   }
+  console.log(headers);
+  createInputs();
+}
+
+function createInputs() {
+  var start = "<tr onClick='showInputs()' style='display:none'>";
+  var end = "</tr>";
+  var inputs = start;
+  for (var i = 0 ; i < headers.length; i++) {
+      var row = "<td><input type='text' onkeyup='filterFunction()''" +
+      "placeholder='Search: " + headers[i]+ "'></td>";
+      inputs += row;
+  }
+  inputs += end;
 }
 
 function filterFunction() {
