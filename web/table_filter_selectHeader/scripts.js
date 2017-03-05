@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   setHeader();
 }, false);
 
-// Add select list of head
+// Add select options from list of head
 function setHeader() {
   var table = document.getElementById("myTable");
   var select = document.getElementById("selectedId");
