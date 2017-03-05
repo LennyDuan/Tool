@@ -1,3 +1,4 @@
+// Please star/follow https://github.com/LennyDuan/Tool if you think this is useful
 function filterFunction() {
   // Declare variables
   var columnInput, filterInput, filter, table, tr, td, i, columnValue, head, headIndex;

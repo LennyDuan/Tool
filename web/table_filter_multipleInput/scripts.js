@@ -1,3 +1,4 @@
+// Please star/follow https://github.com/LennyDuan/Tool if you think this is useful
 // Load the script after DOM ready
 document.addEventListener('DOMContentLoaded', function() {
   setHeader();
