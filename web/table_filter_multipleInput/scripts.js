@@ -14,7 +14,7 @@ function setHeader() {
     headers.push(val);
   }
   console.log(headers);
-  createInputs();
+  console.log(createInputs());
 }
 
 function createInputs() {
@@ -27,6 +27,7 @@ function createInputs() {
       inputs += row;
   }
   inputs += end;
+  return inputs;
 }
 
 function filterFunction() {
