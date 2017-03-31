@@ -1,56 +1,87 @@
 // Please star/follow https://github.com/LennyDuan/Tool if you think this is useful
 // Load the script after DOM ready
 document.addEventListener('DOMContentLoaded', function() {
-  setHeader();
+  insertHeaderFilter();
 }, false);
 
-// Add head to array
+// create an string array of header' values
 var headers = [];
-function setHeader() {
+function insertHeaderFilter() {
   var table = document.getElementById("myTable");
-  var head = table.getElementsByTagName("tr")[0].getElementsByTagName("th");
-  for (var j = 0; j < head.length; j++) {
-    var val = head[j].innerHTML;
-    headers.push(val);
+  var headerRow = table.getElementsByTagName("tr")[0];
+  var headerElements = headerRow.getElementsByTagName("th");
+  for (var j = 0; j < headerElements.length; j++) {
+    var val = headerElements[j].innerHTML;
+    headers.push(val.toLowerCase());
   }
-  console.log(headers);
-  console.log(createInputs());
+
+  // insert multi-inputs below header
+  headerRow.insertAdjacentHTML('afterend', createFilterInputs());
 }
 
-function createInputs() {
-  var start = "<tr onClick='showInputs()' style='display:none'>";
-  var end = "</tr>";
-  var inputs = start;
+// create multi-inputs elements
+function createFilterInputs() {
+  var inputs = '';
   for (var i = 0 ; i < headers.length; i++) {
-      var row = "<td><input type='text' onkeyup='filterFunction()''" +
-      "placeholder='Search: " + headers[i]+ "'></td>";
-      inputs += row;
+      inputs += "<td><input id='" + headers[i] + "_filter' placeholder='Search: " + headers[i]+ "'></td>";
   }
-  inputs += end;
-  return inputs;
+  return "<tr onkeyup='filterFunction()'>" + inputs + "</tr>";
 }
 
 function filterFunction() {
-  // Declare variables
-  var filterInput, filter, table, tr, td, i, headIndex;
-  // Get input value
-  filterInput = document.getElementById("filterInput");
-  filter = filterInput.value.toUpperCase();
-  // Define table and tr
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  // Get headIndex;
-  headIndex = document.getElementById("selectedId").selectedIndex;
+  var inputFilterID, filterInput;
+  var isSearch = false;
+  var tr = document.getElementById("myTable").getElementsByTagName("tr");
+  var totalRow = [tr.length];
 
-  // Loop through all table rows, and hide those who don't match the search query
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[headIndex];
+  // identify the rows which need to be filtered via multi-input.
+  for(var columnIndex = 0; columnIndex < headers.length; columnIndex ++) {
+    inputFilterID = headers[columnIndex] + '_filter';
+    filterInput = document.getElementById(inputFilterID).value.toUpperCase().trim();
+
+    // only iterate the column which has filter input
+    if(filterInput) {
+      isSearch = true;
+      // set true value to the row that need to be filtered
+      iterateColumn(tr, filterInput, columnIndex, totalRow);
+    }
+  }
+
+  // filter table
+  filterRows(tr, totalRow, isSearch);
+}
+
+// Loop through all table rows, and set true value to the rows that needs to be filtered
+function iterateColumn(tr, filterInput, columnIndex, totalRow) {
+  var td;
+  // Loop through rows for a column that has filter input value
+  for (var i = 2; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[columnIndex];
     if (td) {
-      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
+      // set true value to the row that match the input value
+      if (td.innerHTML.toUpperCase().indexOf(filterInput) < 0) {
+        totalRow[i] = true;
       }
+    }
+  }
+}
+
+function filterRows(tr, totalRow, isSearch) {
+  var rowIndex = 2;
+  // filter the rows exclude the header row and filter-input row.
+  if(isSearch) {
+    for (; rowIndex < tr.length; rowIndex++) {
+      // set display feature to 'none' if this row is marked as true value.
+      if(totalRow[rowIndex]) {
+        tr[rowIndex].style.display = "none";
+      } else {
+        tr[rowIndex].style.display = "";
+      }
+    }
+  } else {
+    // display the whole table if doesn't have input
+    for (; rowIndex < tr.length; rowIndex++) {
+      tr[rowIndex].style.display = "";
     }
   }
 }
