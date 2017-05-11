@@ -1,0 +1,115 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Table Filter">
+  <meta name="author" content="Lenny Duan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<header>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#comart_top_navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Navbar</a>
+    </div>
+    <div class="collapse navbar-collapse" id="comart_top_navbar">
+      <ul class="nav navbar-nav">
+        <li id="home">
+          <a href="#">
+            <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+            Home </a>
+          </li>
+          <li id="sale">
+            <a href="#">
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+              Sale
+            </a>
+          </li>
+          <li id="rent">
+            <a href="#">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+              Rent</a>
+            </li>
+            <li id="wanted">
+              <a href="#">
+                <span class="glyphicon glyphicon-tags" aria-hidden="true"></span>
+                Buy
+              </a>
+            </li>
+            <li id="post" class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-collapse-down" aria-hidden="true"></span>
+                Post <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"> <span class="glyphicon glyphicon-log-out"></span>log out</a>
+          </li>
+        </c:if>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle"
+          data-toggle="dropdown">
+          <span class="glyphicon glyphicon-text-background" aria-hidden="true"></span>
+          English <b class="caret"></b></a>
+          <ul class="dropdown-menu"
+          style="font-family:'Arial','Microsoft YaHei','黑体','宋体',sans-serif;">
+          <li><a> Chinese </a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+<body>
+  Tag Name: <input type="text" class="filterInput"id="headerInput" placeholder="Input the tag of one column">
+  <br>
+  Search Input: <input type="text" class="filterInput"id="filterInput" onkeyup="filterFunction()" placeholder="Search for the content match the input...">
+
+  <table id="myTable">
+    <tr class="header">
+      <th style="width:30%;">Name</th>
+      <th style="width:20%;">Country</th>
+      <th style="width:20%;">Date</th>
+      <th style="width:20%;">Cost</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Germany</td>
+      <td>04 Mar 2017</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>Ivy Lu</td>
+      <td>Canada</td>
+      <td>17 April 2017</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>Island Trading</td>
+      <td>UK</td>
+      <td>25 Sept 2016</td>
+      <td>600</td>
+    </tr>
+    <tr>
+      <td>Hongyi Duan</td>
+      <td>China</td>
+      <td>04 June 2017</td>
+      <td>1800</td>
+    </tr>
+  </table>
+</body>
