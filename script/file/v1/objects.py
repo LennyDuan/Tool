@@ -13,8 +13,7 @@ class CourseMapper:
         self.level = level
 
     def toString(self):
-        print(
-        'Course: [' + self.title + '] Department: [' + self.department
+        print('Course: [' + self.title + '] Department: [' + self.department
          + '] Code: [' + self.code + '] Code Plus: [' + self.codePlus
-         + '] \nEquivalency: [' + self.equivalency+ '] Category: [' + self.category
-         + '] Credits: [' + self.credits+ ']')
+         + '] Equivalency: [' + self.equivalency+ '] Category: [' + self.category
+         + '] Credits: [' + self.credits + ']\n')
