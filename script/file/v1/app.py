@@ -1,5 +1,5 @@
 import os
-from mapper import createCourseMapper
+from mapper.mapper import createCourseMapper
 ## Initializing
 print('###### Start Initializing ######')
 dir = os.getcwd()
