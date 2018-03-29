@@ -26,4 +26,4 @@ class Transcript:
         self.score = score
 
     def toString(self):
-        print('Course: ' + self.code + ' ' + self.title + ' - ' + self.score + '\n')
+        print('Course Code [' + self.code + '] Title: [' + self.title + '] Score: [' + self.score + ']')

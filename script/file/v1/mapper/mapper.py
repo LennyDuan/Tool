@@ -2,14 +2,13 @@ import csv
 from objects import CourseMapper
 
 def createCourseMapper(mapper, path):
-    print('###### Initial Mapper ######')
+    print('###### Initial Mapper ######\n')
     mapperLists = csv.reader(open(path))
     for arr in mapperLists:
         createMapper(mapper, arr)
     print('###### End Initializing ######\n\n')
     return mapper;
 
-['378', '', 'Taubman College of Architecture and Urban Planning', 'ARCH201', 'ARCH 201, Basic Drawing', '4', '', '', '', '', '4', 'Studio Art (Intellectual Breadth)', '200']
 def createMapper(mapper, arr):
     code = arr[3]
     if '+' in code:
