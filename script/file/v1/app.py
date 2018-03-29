@@ -23,7 +23,7 @@ print('###### Start Reading Transcript ######\n')
 transcript = {}
 name = input('Please input a student transcript file name: \n')
 Tpath = dir + '/transcript/' + name;
-print('Find Student Transcript: ' + Tpath)
+print('Find Student: [' + name +'] Transcript: ' + Tpath)
 assert Tpath
 transcript = createTranscriptMapper(transcript, Tpath)
 for key, val in transcript.items():
