@@ -17,3 +17,13 @@ class CourseMapper:
          + '] Code: [' + self.code + '] Code Plus: [' + self.codePlus
          + '] Equivalency: [' + self.equivalency+ '] Category: [' + self.category
          + '] Credits: [' + self.credits + ']\n')
+
+class Transcript:
+
+    def __init__(self, code, title, score):
+        self.code = code
+        self.title = title
+        self.score = score
+
+    def toString(self):
+        print('Course: ' + self.code + ' ' + self.title + ' - ' + self.score + '\n')
