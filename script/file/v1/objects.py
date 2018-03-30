@@ -1,10 +1,20 @@
-class DegreeSheet:
+class DegreeCourse:
 
-    def __init__(self, nbr, course_name, category, prerequisite, corequisite,
-    chrs, grade, note)
+    def __init__(self, nbr, course_name, category,
+    prerequisite, corequisite, chrs, grade, note):
+        self.nbr = nbr
+        self.course_name = course_name
+        self.category = category
+        self.prerequisite = prerequisite
+        self.corequisite = corequisite
+        self.chrs = chrs
+        self.grade = grade
+        self.note = note
 
-
-
+    def toString(self):
+        print('Degree Course Nbr: [' self.nbr+ + '] Course_Name: [' + self. course_name '] ' +
+        'Category: [' + self.category + '] ' + 'C/Hrs: [ ' + self.chrs + '] ' +
+        'Grade: [' + self.grade + ']')
 
 class CourseMapper:
 
