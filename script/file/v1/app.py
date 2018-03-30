@@ -34,6 +34,7 @@ print('------------------------------------------------\n')
 ## Init Output
 print('###### Start Creating Degree Check Sheet ######\n')
 Dpath = dir + '/degree_progress_check_sheet/' + name;
-print('Creating Student: [' + name +'] Degree Check Sheet : ' + Dpath)
+print('Initing Student: [' + name +'] Degree Check Sheet: ' + Dpath)
+
 print('###### End Creating Degree Check Sheet Successful ######\n')
 print('------------------------------------------------\n')
