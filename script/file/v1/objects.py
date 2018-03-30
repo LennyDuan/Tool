@@ -1,3 +1,11 @@
+class DegreeSheet:
+
+    def __init__(self, nbr, course_name, category, prerequisite, corequisite,
+    chrs, grade, note)
+
+
+
+
 class CourseMapper:
 
     def __init__(self, department, code, codePlus, title,
