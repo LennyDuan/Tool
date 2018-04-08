@@ -39,5 +39,7 @@ Mpath = dir + '/degree_progress_check_sheet/init/' + major + '.csv'
 print('Initing Student: [' + name +'] Degree Check Sheet with Template: ' + Mpath)
 assert Mpath
 template = createDegreeCourseTemplate(template, Mpath)
+for key, val in template.items():
+    val.toString()
 print('###### End Creating Degree Check Sheet Template Successful ######\n')
 print('------------------------------------------------\n')

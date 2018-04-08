@@ -2,12 +2,12 @@ import csv
 from objects import DegreeCourse
 
 def createDegreeCourseTemplate(template, path):
-    print('###### Initial Template ######\n')
-    template = csv.reader(open(path))
+    print('\n###### Initial Template ######\n')
+    file = csv.reader(open(path))
     category = None
-    for arr in template:
-        createTemplate(template, arr, category)
-    print('###### End Initializing ######\n')
+    for arr in file:
+        category = createTemplate(template, arr, category)
+    print('\n###### End Initializing ######\n')
     return template;
 
 def createTemplate(template, arr, category):
@@ -15,4 +15,20 @@ def createTemplate(template, arr, category):
         category = arr[0]
         print('Current Category is: ' + category)
     else:
-        print(arr)
+        print(category)
+        nbr = arr[0]
+        course_name = arr[1]
+        prerequisite = arr[2]
+        corequisite = arr[3]
+        chrs = arr[4]
+        grade = arr[5]
+        note = arr[6]
+
+        degree = DegreeCourse(nbr, course_name, category, prerequisite,
+        corequisite, chrs, grade, note)
+        template[nbr] = degree
+
+    return category
+
+def createNbr(nbr):
+    return nbr

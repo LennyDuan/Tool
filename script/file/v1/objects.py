@@ -12,9 +12,12 @@ class DegreeCourse:
         self.note = note
 
     def toString(self):
-        print('Degree Course Nbr: [' + self.nbr + '] Course_Name: [' + self. course_name + ']' +
-        'Category: [' + self.category + '] ' + 'C/Hrs: [ ' + self.chrs + '] ' +
-        'Grade: [' + self.grade + ']')
+        print('Degree Course Nbr: [' + self.nbr + '] Course_Name: [' + self. course_name
+        + '] Category: [ ' + self.category + '] ')
+        if self.grade:
+            print('Grade: [' + self.grade+ '] ')
+        if self.note:
+            print('Note: [' + self.note+ '] ')
 
 class CourseMapper:
 
