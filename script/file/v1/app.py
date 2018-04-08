@@ -18,6 +18,19 @@ mapper = createCourseMapper(mapper, Mpath)
 print('###### End Reading Mapper Successful ######\n')
 print('------------------------------------------------\n')
 
+## Init Template
+template = {}
+print('###### Start Creating Degree Check Sheet Template ######\n')
+major = input('Please input student major ECE or ME: \n')
+Mpath = dir + '/degree_progress_check_sheet/init/' + major + '.csv'
+print('Initing Major Template: [' + major +'] Degree Check Sheet with Template: ' + Mpath)
+assert Mpath
+template = createDegreeCourseTemplate(template, Mpath)
+for key, val in template.items():
+    val.toString()
+print('###### End Creating Degree Check Sheet Template Successful ######\n')
+print('------------------------------------------------\n')
+
 ## Init Transcript
 transcript = {}
 print('###### Start Reading Transcript ######\n')
@@ -29,17 +42,4 @@ transcript = createTranscriptMapper(transcript, Tpath)
 for key, val in transcript.items():
     val.toString()
 print('###### End Reading Transcript Successful ######\n')
-print('------------------------------------------------\n')
-
-## Init Template
-template = {}
-print('###### Start Creating Degree Check Sheet Template ######\n')
-major = input('Please input student major ECE or ME: \n')
-Mpath = dir + '/degree_progress_check_sheet/init/' + major + '.csv'
-print('Initing Student: [' + name +'] Degree Check Sheet with Template: ' + Mpath)
-assert Mpath
-template = createDegreeCourseTemplate(template, Mpath)
-for key, val in template.items():
-    val.toString()
-print('###### End Creating Degree Check Sheet Template Successful ######\n')
 print('------------------------------------------------\n')

@@ -13,9 +13,7 @@ def createDegreeCourseTemplate(template, path):
 def createTemplate(template, arr, category):
     if (len(arr) == 1):
         category = arr[0]
-        print('Current Category is: ' + category)
     else:
-        print(category)
         nbr = arr[0]
         course_name = arr[1]
         prerequisite = arr[2]
