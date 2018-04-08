@@ -12,7 +12,7 @@ class DegreeCourse:
         self.note = note
 
     def toString(self):
-        print('Degree Course Nbr: [' self.nbr+ + '] Course_Name: [' + self. course_name '] ' +
+        print('Degree Course Nbr: [' + self.nbr + '] Course_Name: [' + self. course_name + ']' +
         'Category: [' + self.category + '] ' + 'C/Hrs: [ ' + self.chrs + '] ' +
         'Grade: [' + self.grade + ']')
 
