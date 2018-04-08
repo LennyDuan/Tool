@@ -1,6 +1,7 @@
 import os
 from mapper.mapper import createCourseMapper
 from mapper.transcript import createTranscriptMapper
+from mapper.template import createDegreeCourseTemplate
 
 ## Initializing
 print('###### Start Initializing ######')
@@ -9,20 +10,19 @@ Mpath = dir + '/equivalence_course/UM equivalence_course.csv'
 print('Find Course Mapper: ' + Mpath)
 
 ## Init courseMapper
-print('###### Start Reading Mapper ######\n')
 mapper = {}
+print('###### Start Reading Mapper ######\n')
 mapper = createCourseMapper(mapper, Mpath)
 # key, val in mapper.items():
     # val.toString()
 print('###### End Reading Mapper Successful ######\n')
 print('------------------------------------------------\n')
 
-
 ## Init Transcript
-print('###### Start Reading Transcript ######\n')
 transcript = {}
+print('###### Start Reading Transcript ######\n')
 name = input('Please input a student transcript file name: \n')
-Tpath = dir + '/transcript/' + name;
+Tpath = dir + '/transcript/' + name + '.csv';
 print('Find Student: [' + name +'] Transcript: ' + Tpath)
 assert Tpath
 transcript = createTranscriptMapper(transcript, Tpath)
@@ -31,9 +31,13 @@ for key, val in transcript.items():
 print('###### End Reading Transcript Successful ######\n')
 print('------------------------------------------------\n')
 
-## Init Output
-print('###### Start Creating Degree Check Sheet ######\n')
-Dpath = dir + '/degree_progress_check_sheet/' + name;
-print('Initing Student: [' + name +'] Degree Check Sheet: ' + Dpath)
-print('###### End Creating Degree Check Sheet Successful ######\n')
+## Init Template
+template = {}
+print('###### Start Creating Degree Check Sheet Template ######\n')
+major = input('Please input student major ECE or ME: \n')
+Mpath = dir + '/degree_progress_check_sheet/init/' + major + '.csv'
+print('Initing Student: [' + name +'] Degree Check Sheet with Template: ' + Mpath)
+assert Mpath
+template = createDegreeCourseTemplate(template, Mpath)
+print('###### End Creating Degree Check Sheet Template Successful ######\n')
 print('------------------------------------------------\n')
