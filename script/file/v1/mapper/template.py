@@ -28,5 +28,6 @@ def createTemplate(template, arr, category):
 
     return category
 
+# Not here
 def createNbr(nbr):
     return nbr
