@@ -1,6 +1,6 @@
 import csv
 from objects import DegreeCourse
-
+from mapper.number import createNbr
 def createDegreeCourseTemplate(template, path):
     print('\n###### Initial Template ######\n')
     file = csv.reader(open(path))
@@ -27,7 +27,3 @@ def createTemplate(template, arr, category):
         template[nbr] = degree
 
     return category
-
-# Not here
-def createNbr(nbr):
-    return nbr
