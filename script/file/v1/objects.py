@@ -4,14 +4,18 @@ class DegreeCategory:
         self.name = name
         self.required = required
         self.completed = 0
-        degreeCourses = []
+        self.degreeCourses = []
 
     def addCourse(self, degreeCourse):
         self.degreeCourses.append(degreeCourse)
-        self.completed += degreeCourses.grade
+        if degreeCourse.grade:
+            self.completed += int(degreeCourse.grade)
 
     def toString(self):
-        print('Category: [' + self.name +'] Required Creds [' + self.required +']')
+        print('Category: [' + self.name +'] Required Creds: [' + self.required +']')
+        for ele in self.degreeCourses:
+            print(ele.toString())
+        print('Completed Cred: [' + str(self.completed) + ']\n')
 
 class DegreeCourse:
 

@@ -1,6 +1,6 @@
 Vv116/Vv156/Vv186,"Calculus II/
 Honors Calculus II /
-Honors Math II",⎯,⎯,4,4,
+Honors Math II",⎯,⎯,4,,
 Vv215/Vv255/Vv285,"Calculus III/
 Honors Calculus III /
 Honors Math III",Vv116/156/186,⎯,4,,
@@ -24,11 +24,11 @@ Ve230,Electromagnetics I,"Vv255/285, Vp240/260, Ve215",⎯,4,,
 Ve270,Intro to Logic Design,Vg101 or equivalent,⎯,4,,
 Ve311,Electronic Circuits,Ve216,⎯,4,,
 Ve320,Semiconductor Dev. Theo.,"Ve215, Vp240/260",⎯,4,4,
-Ve370,Intro to Comp. Org.,"Ve270, Ve280",⎯,4,4,
+Ve370,Intro to Comp. Org.,"Ve270, Ve280",⎯,4,,
 Ve300,Technical Communication,Vg100,⎯,1,,
 Ve401,Probablistic Meth. in Engr.,"Vv156/186, 255/285, 256/286",⎯,4,,
 Ve450,Capstone Design,"Ve216, Ve280, Ve311",Ve496,4,,
-Ve496,Technical Communication,Ve300,Ve450,2,2,
+Ve496,Technical Communication,Ve300,Ve450,2,,
 Vy100,Academic Writing I,⎯,⎯,4,,
 Vy200,Academic Writing II,Vy100,⎯,4,,
 TH009,Circumstance and Policy 46,⎯,⎯,0,,

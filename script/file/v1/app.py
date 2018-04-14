@@ -36,8 +36,8 @@ template = createDegreeCourseTemplate(template, Mpath)
 Cpath = dir + '/degree_progress_check_sheet/init/' + major + '_category.csv'
 assert Cpath
 category = createDegreeCourseCategory(category, Cpath)
-for key, val in category.items():
-    val.toString()
+#for key, val in category.items():
+    #val.toString()
 
 print('\n###### End Creating Degree Check Sheet Template Successful ######\n')
 print('\n------------------------------------------------\n')
@@ -60,17 +60,26 @@ print('\n###### Start Mapper Transcrit to Degree Course ######\n')
 for key, val in transcript.items():
     map(val, mapper, template)
 
-for key, val in template.items():
-    val.toString()
+#for key, val in template.items():
+    #val.toString()
 print('\n###### End Mapper Transcrit to Degree Course ######\n')
 print('\n------------------------------------------------\n')
 
+## Add Degree Course to Category
+print('\n###### Start Add Degree Course to Category ######\n')
+for key, val in template.items():
+    if(category[val.category]):
+        cat = category[val.category]
+        cat.addCourse(val)
+
+# for key, val in category.items():
+#     val.toString()
+
+print('\n###### End Add Degree Course to Category ######\n')
+print('\n------------------------------------------------\n')
 
 ## Create CSV Final File
 print('\n###### Start Create Final CSV File ######\n')
-for key, val in template.items():
-    val.toString()
-
 Opath = dir + '/result/' + name + '.csv';
 with open(Opath, 'w') as csv_file:
     wr = csv.writer(csv_file, delimiter=',')
