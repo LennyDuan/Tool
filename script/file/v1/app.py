@@ -1,11 +1,10 @@
 import os
-import csv
 from mapper.mapper import createCourseMapper
 from mapper.transcript import createTranscriptMapper
 from mapper.template import createDegreeCourseTemplate
 from mapper.category import createDegreeCourseCategory
+from main import map, writeCSV
 
-from main import map
 ## Initializing
 print('\n###### Start Initializing ######')
 dir = os.getcwd()
@@ -81,10 +80,7 @@ print('\n------------------------------------------------\n')
 ## Create CSV Final File
 print('\n###### Start Create Final CSV File ######\n')
 Opath = dir + '/result/' + name + '.csv';
-with open(Opath, 'w') as csv_file:
-    wr = csv.writer(csv_file, delimiter=',')
-    for key, val in category.items():
-        wr.writerow(val)
+writeCSV(category, Opath)
 
 print('\n###### Start Create Final CSV File ######\n')
 print('\n------------------------------------------------\n')
