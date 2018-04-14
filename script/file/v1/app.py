@@ -2,7 +2,7 @@ import os
 from mapper.mapper import createCourseMapper
 from mapper.transcript import createTranscriptMapper
 from mapper.template import createDegreeCourseTemplate
-
+from main import map
 ## Initializing
 print('\n###### Start Initializing ######')
 dir = os.getcwd()
@@ -46,5 +46,10 @@ print('\n------------------------------------------------\n')
 
 ## Add Mapper Transcrit to Degree Course
 print('\n###### Start Mapper Transcrit to Degree Course ######\n')
+for key, val in transcript.items():
+    map(val, mapper, template)
+
+for key, val in template.items():
+    val.toString()
 print('\n###### End Mapper Transcrit to Degree Course ######\n')
 print('\n------------------------------------------------\n')
