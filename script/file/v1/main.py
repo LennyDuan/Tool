@@ -21,11 +21,11 @@ def writeCSV(category, path):
         for key, val in category.items():
             cat_head = ""
             cat_head += val.name
-            cat_head += " ("
+            cat_head += ","
             cat_head += str(val.required)
-            cat_head += " credits required. "
+            cat_head += " credits required,"
             cat_head += str(val.completed)
-            cat_head += " credits completed)"
+            cat_head += " credits completed"
             cat_degreeCourses = val.degreeCourses
             csv_file.write(cat_head)
             csv_file.write('\n')
@@ -33,3 +33,5 @@ def writeCSV(category, path):
             csv_file.write('\n')
             for course in cat_degreeCourses:
                 wr.writerow(course)
+            csv_file.write('\n')
+            csv_file.write('\n')
