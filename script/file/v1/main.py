@@ -8,6 +8,7 @@ def map(transcript, mapper, template):
 
         for key, val in template.items():
             if(equivalency.upper() in key.upper()):
+                print(courseMapper.toString())
                 val.grade = credits
                 break
     else:
