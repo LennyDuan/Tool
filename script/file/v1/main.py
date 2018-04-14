@@ -15,9 +15,18 @@ def map(transcript, mapper, template):
     else:
         print('Cannot find the course' + transcript)
 
-def writeCSV(category, path):
+def writeCSV(category, path, major):
+    name = input("请输入学生姓名：")
+    id = input("请输入学生学号：")
     with open(path, 'w') as csv_file:
         wr = csv.writer(csv_file, delimiter=',')
+        title = "name,"
+        title += name
+        title += ",Student ID:,"
+        title += id
+        csv_file.write(title)
+        csv_file.write('\n')
+        csv_file.write('\n')
         for key, val in category.items():
             cat_head = ""
             cat_head += val.name

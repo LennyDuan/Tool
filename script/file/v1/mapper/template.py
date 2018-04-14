@@ -3,12 +3,12 @@ from objects import DegreeCourse
 from mapper.number import createNbr
 
 def createDegreeCourseTemplate(template, path):
-    print('\n###### Initial Template ######\n')
+    #print('\n###### Initial Template ######\n')
     file = csv.reader(open(path))
     category = None
     for arr in file:
         category = createTemplate(template, arr, category)
-    print('\n###### End Initializing ######\n')
+    #print('\n###### End Initializing ######\n')
     return template;
 
 def createTemplate(template, arr, category):

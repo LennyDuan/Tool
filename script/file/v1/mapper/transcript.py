@@ -2,11 +2,11 @@ import csv
 from objects import Transcript
 
 def createTranscriptMapper(transcript, path):
-    print('###### Initial Transcript ######\n')
+    #print('###### Initial Transcript ######\n')
     transcriptLists = csv.reader(open(path))
     for arr in transcriptLists:
         createTranscript(transcript, arr)
-    print('###### End Initializing ######\n')
+    #print('###### End Initializing ######\n')
     return transcript;
 
 def createTranscript(transcript, arr):

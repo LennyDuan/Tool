@@ -2,11 +2,11 @@ import csv
 from objects import CourseMapper
 
 def createCourseMapper(mapper, path):
-    print('###### Initial Mapper ######\n')
+    #print('###### Initial Mapper ######\n')
     mapperLists = csv.reader(open(path))
     for arr in mapperLists:
         createMapper(mapper, arr)
-    print('###### End Initializing ######\n\n')
+    #print('###### End Initializing ######\n\n')
     return mapper;
 
 def createMapper(mapper, arr):
