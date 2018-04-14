@@ -83,7 +83,7 @@ print('\n###### Start Create Final CSV File ######\n')
 Opath = dir + '/result/' + name + '.csv';
 with open(Opath, 'w') as csv_file:
     wr = csv.writer(csv_file, delimiter=',')
-    for key, val in template.items():
+    for key, val in category.items():
         wr.writerow(val)
 
 print('\n###### Start Create Final CSV File ######\n')
