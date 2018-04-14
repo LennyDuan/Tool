@@ -23,12 +23,13 @@ def writeCSV(category, path):
             cat_head += val.name
             cat_head += " ("
             cat_head += str(val.required)
-            cat_head += " credits required, "
+            cat_head += " credits required. "
             cat_head += str(val.completed)
             cat_head += " credits completed)"
             cat_degreeCourses = val.degreeCourses
             csv_file.write(cat_head)
             csv_file.write('\n')
             csv_file.write('Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note')
+            csv_file.write('\n')
             for course in cat_degreeCourses:
                 wr.writerow(course)
