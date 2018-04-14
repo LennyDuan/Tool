@@ -1,6 +1,7 @@
 import csv
 from objects import DegreeCourse
 from mapper.number import createNbr
+
 def createDegreeCourseTemplate(template, path):
     print('\n###### Initial Template ######\n')
     file = csv.reader(open(path))
@@ -14,7 +15,7 @@ def createTemplate(template, arr, category):
     if (len(arr) == 1):
         category = arr[0]
     else:
-        nbr = arr[0]
+        nbr = createNbr(arr[0])
         course_name = arr[1]
         prerequisite = arr[2]
         corequisite = arr[3]
