@@ -1,7 +1,10 @@
 import os
+import csv
 from mapper.mapper import createCourseMapper
 from mapper.transcript import createTranscriptMapper
 from mapper.template import createDegreeCourseTemplate
+from mapper.category import createDegreeCourseCategory
+
 from main import map
 ## Initializing
 print('\n###### Start Initializing ######')
@@ -20,6 +23,7 @@ print('\n------------------------------------------------\n')
 
 ## Init Template
 template = {}
+category = {}
 print('\n###### Start Creating Degree Check Sheet Template ######\n')
 major = input('Please input student major ECE or ME: \n')
 Mpath = dir + '/degree_progress_check_sheet/init/' + major + '.csv'
@@ -28,6 +32,13 @@ assert Mpath
 template = createDegreeCourseTemplate(template, Mpath)
 #for key, val in template.items():
     #val.toString()
+
+Cpath = dir + '/degree_progress_check_sheet/init/' + major + '_category.csv'
+assert Cpath
+category = createDegreeCourseCategory(category, Cpath)
+for key, val in category.items():
+    val.toString()
+
 print('\n###### End Creating Degree Check Sheet Template Successful ######\n')
 print('\n------------------------------------------------\n')
 
@@ -52,4 +63,19 @@ for key, val in transcript.items():
 for key, val in template.items():
     val.toString()
 print('\n###### End Mapper Transcrit to Degree Course ######\n')
+print('\n------------------------------------------------\n')
+
+
+## Create CSV Final File
+print('\n###### Start Create Final CSV File ######\n')
+for key, val in template.items():
+    val.toString()
+
+Opath = dir + '/result/' + name + '.csv';
+with open(Opath, 'w') as csv_file:
+    wr = csv.writer(csv_file, delimiter=',')
+    for key, val in template.items():
+        wr.writerow(val)
+
+print('\n###### Start Create Final CSV File ######\n')
 print('\n------------------------------------------------\n')

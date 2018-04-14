@@ -1,3 +1,18 @@
+class DegreeCategory:
+
+    def __init__(self, name, required):
+        self.name = name
+        self.required = required
+        self.completed = 0
+        degreeCourses = []
+
+    def addCourse(self, degreeCourse):
+        self.degreeCourses.append(degreeCourse)
+        self.completed += degreeCourses.grade
+
+    def toString(self):
+        print('Category: [' + self.name +'] Required Creds [' + self.required +']')
+
 class DegreeCourse:
 
     def __init__(self, nbr, course_name, category,
@@ -10,6 +25,10 @@ class DegreeCourse:
         self.chrs = chrs
         self.grade = grade
         self.note = note
+
+    def __iter__(self):
+        return iter([self.nbr, self.course_name,self.prerequisite,
+        self.corequisite, self.chrs, self.grade, self.note])
 
     def toString(self):
         print('Degree Course Nbr: [' + self.nbr + '] Course_Name: [' + self.course_name
