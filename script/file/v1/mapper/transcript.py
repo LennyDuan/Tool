@@ -12,10 +12,12 @@ def createTranscriptMapper(transcript, path):
 def createTranscript(transcript, arr):
     code = arr[0]
     title = arr[1]
-    if len(arr) > 2:
-        score = arr[2]
+    score = arr[2]
+    credits = arr[3]
+    if(len(arr) > 4):
+        category = arr[4]
     else:
-        score = 'None'
+        category = ''
 
-    singleTranscript = Transcript(code, title, score)
+    singleTranscript = Transcript(code, title, score, credits, category)
     transcript[code] = singleTranscript

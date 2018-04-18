@@ -4,7 +4,7 @@ from objects import DegreeCourse
 def map(transcript, mapper, template):
     code = transcript.code
     print('---')
-    if mapper[code]:
+    if code in mapper:
         courseMapper = mapper[code]
         department = courseMapper.category
         equivalency = courseMapper.equivalency
@@ -48,8 +48,22 @@ def map(transcript, mapper, template):
 
     # Need to Add to Template
     else:
+        print('Cannot find the course in Map ' + code)
+        credits = transcript.credits
+        category = transcript.category
+        course_name = transcript.title
+        note = '无法匹配该课程: ' + code
+        if category == 'Intellectual Breadth':
+            print('Is GE Category: ' + category)
+            category = 'General Elective'
+            note = note + ' 转为普通类别'
+        else:
+            note = '直接转化 Intellectual Breadth 课程: ' + code
+            print('Is IB Category: '  + category)
+        degreeCourse = DegreeCourse(code, course_name, category,
+        '-', '-', credits, credits, note)
+        template[code] = degreeCourse
         # No code found in Map, should be General/IB with origin Data
-        print('Cannot find the course' + transcript)
 
 def writeCSV(category, path, major):
     name = input("请输入学生姓名：")

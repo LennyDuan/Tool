@@ -64,10 +64,12 @@ class CourseMapper:
 
 class Transcript:
 
-    def __init__(self, code, title, score):
+    def __init__(self, code, title, score, credits, category):
         self.code = code
         self.title = title
         self.score = score
+        self.credits = credits
+        self.category = category
 
     def toString(self):
-        print('Course Code [' + self.code + '] Title: [' + self.title + '] Score: [' + self.score + ']')
+        print('Course Code [' + self.code + '] Title: [' + self.title + '] Score: [' + self.score + '] Cat: [' + self.category+ ']')

@@ -16,8 +16,8 @@ Mpath = dir + '/equivalence_course/UM equivalence_course.csv'
 mapper = {}
 #print('\n###### Start Reading Mapper ######\n')
 mapper = createCourseMapper(mapper, Mpath)
-# key, val in mapper.items():
-    # val.toString()
+#for key, val in mapper.items():
+    #val.toString()
 #print('\n###### End Reading Mapper Successful ######\n')
 #print('\n------------------------------------------------\n')
 
@@ -53,8 +53,8 @@ Tpath = dir + '/transcript/' + name + '.csv';
 #print('\nFind Student: [' + name +'] Transcript: ' + Tpath)
 assert Tpath
 transcript = createTranscriptMapper(transcript, Tpath)
-#for key, val in transcript.items():
-    #val.toString()
+for key, val in transcript.items():
+    val.toString()
 #print('\n###### End Reading Transcript Successful ######\n')
 #print('\n------------------------------------------------\n')
 
