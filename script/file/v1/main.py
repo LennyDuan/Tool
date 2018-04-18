@@ -53,7 +53,7 @@ def map(transcript, mapper, template):
         category = transcript.category
         course_name = transcript.title
         note = '无法匹配该课程: ' + code
-        if category == 'Intellectual Breadth':
+        if category != 'Intellectual Breadth':
             print('Is GE Category: ' + category)
             category = 'General Elective'
             note = note + ' 转为普通类别'
