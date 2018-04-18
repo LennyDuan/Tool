@@ -3,7 +3,6 @@ from objects import DegreeCourse
 
 def map(transcript, mapper, template):
     code = transcript.code
-    print('---')
     if code in mapper:
         courseMapper = mapper[code]
         department = courseMapper.category
@@ -38,7 +37,7 @@ def map(transcript, mapper, template):
                 # prerequisite, corequisite, credits, credits,note)
                 # template[nbr] = degreeCourse
             else :
-                print('Equivalency should be null: ' + equivalency)
+                #print('Equivalency should be null: ' + equivalency)
                 nbr = code
                 note = '此类别课程: ' + nbr + ' 无对应课号'
                 degreeCourse = DegreeCourse(nbr, course_name, department,
@@ -48,7 +47,7 @@ def map(transcript, mapper, template):
 
     # Need to Add to Template
     else:
-        print('Cannot find the course in Map ' + code)
+        #print('Cannot find the course in Map ' + code)
         credits = transcript.credits
         category = transcript.category
         course_name = transcript.title
