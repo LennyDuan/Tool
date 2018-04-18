@@ -1,4 +1,6 @@
 import csv
+from objects import DegreeCourse
+
 def map(transcript, mapper, template):
     code = transcript.code
     if mapper[code]:
@@ -6,6 +8,9 @@ def map(transcript, mapper, template):
         department = courseMapper.department
         equivalency = courseMapper.equivalency
         credits = courseMapper.credits
+        course_name = courseMapper.title
+        prerequisite = '-'
+        corequisite = '-'
 
         inTempate = False
         for key, val in template.items():
@@ -16,9 +21,27 @@ def map(transcript, mapper, template):
                 inTempate = True
                 break
 
+        # Need to Add to Template
         if not inTempate:
-            ## Put course in to category
-            print('Put course in to category')
+            if equivalency and not 'NULL':
+                ## Put course in to category with equivalency CODE
+                nbr = equivalency
+                note = '转自:' + code
+                # No courseList now, need to Initializing...
+                # findDepartment = courseList[nbr]
+                # degreeCourse = DegreeCourse(nbr, course_name, findDepartment,
+                # prerequisite, corequisite, credits, credits,note)
+                # template[nbr] = degreeCourse
+                print('Put course in to category')
+            else :
+                nbr = code
+                node = '课程: ' + nbr + ' 无对应课号'
+                degreeCourse = DegreeCourse(nbr, course_name, department,
+                prerequisite, corequisite, credits, credits, note)
+                template[nbr] = degreeCourse
+                print('Put course in to category')
+
+    # Need to Add to Template
     else:
         # No code found in Map, should be General/IB with origin Data
         print('Cannot find the course' + transcript)
