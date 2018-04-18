@@ -19,7 +19,7 @@ def map(transcript, mapper, template):
             ## Put course in to category
             print('Put course in to category')
     else:
-        # No code found in Map, should be General with origin Data
+        # No code found in Map, should be General/IB with origin Data
         print('Cannot find the course' + transcript)
 
 def writeCSV(category, path, major):
