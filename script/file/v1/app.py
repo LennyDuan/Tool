@@ -53,8 +53,8 @@ Tpath = dir + '/transcript/' + name + '.csv';
 #print('\nFind Student: [' + name +'] Transcript: ' + Tpath)
 assert Tpath
 transcript = createTranscriptMapper(transcript, Tpath)
-for key, val in transcript.items():
-    val.toString()
+#for key, val in transcript.items():
+    #val.toString()
 #print('\n###### End Reading Transcript Successful ######\n')
 #print('\n------------------------------------------------\n')
 

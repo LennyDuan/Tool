@@ -16,8 +16,8 @@ def map(transcript, mapper, template):
         inTempate = False
         for key, val in template.items():
             if equivalency and (equivalency.upper() in key.upper()):
-                print('Find in template: ' + code)
-                print('Equivalency: ' + equivalency + ' Key in template:' + key)
+                #print('Find in template: ' + code)
+                #print('Equivalency: ' + equivalency + ' Key in template:' + key)
                 #print(courseMapper.toString())
                 val.grade = credits
                 val.note = '转自:' + code
@@ -26,9 +26,9 @@ def map(transcript, mapper, template):
 
         # Need to Add to Template
         if not inTempate:
-            print('Not find in template: ' + code)
+            #print('Not find in template: ' + code)
             if equivalency:
-                print('Equivalency: ' + equivalency)
+                #print('Equivalency: ' + equivalency)
                 ## Put course in to category with equivalency CODE
                 nbr = equivalency
                 note = '转自:' + code
@@ -44,7 +44,7 @@ def map(transcript, mapper, template):
                 degreeCourse = DegreeCourse(nbr, course_name, department,
                 prerequisite, corequisite, credits, credits, note)
                 template[nbr] = degreeCourse
-                print('Create course in to category')
+                #print('Create course in to category')
 
     # Need to Add to Template
     else:
@@ -54,12 +54,12 @@ def map(transcript, mapper, template):
         course_name = transcript.title
         note = '无法匹配该课程: ' + code
         if category != 'Intellectual Breadth':
-            print('Is GE Category: ' + category)
+            #print('Is GE Category: ' + category)
             category = 'General Elective'
             note = note + ' 转为普通类别'
         else:
             note = '直接转化 Intellectual Breadth 课程: ' + code
-            print('Is IB Category: '  + category)
+            #print('Is IB Category: '  + category)
         degreeCourse = DegreeCourse(code, course_name, category,
         '-', '-', credits, credits, note)
         template[code] = degreeCourse
