@@ -1,10 +1,10 @@
-name,FENGSH,Student ID:,12342
+name,123,Student ID:,123
 
 Engineering Foundation,39 credits required,4 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
 Vv116/Vv156/Vv186,"Calculus II/
 Honors Calculus II /
-Honors Math II",⎯,⎯,4,4,
+Honors Math II",⎯,⎯,4,4,转自EECS498
 Vv215/Vv255/Vv285,"Calculus III/
 Honors Calculus III /
 Honors Math III",Vv116/156/186,⎯,4,,
@@ -35,12 +35,12 @@ Ve280,Prog. & Data Structure,"Vv156/186,Vg101",⎯,4,,
 Ve230,Electromagnetics I,"Vv255/285, Vp240/260, Ve215",⎯,4,,
 Ve270,Intro to Logic Design,Vg101 or equivalent,⎯,4,,
 Ve311,Electronic Circuits,Ve216,⎯,4,,
-Ve320,Semiconductor Dev. Theo.,"Ve215, Vp240/260",⎯,4,4,
-Ve370,Intro to Comp. Org.,"Ve270, Ve280",⎯,4,4,
+Ve320,Semiconductor Dev. Theo.,"Ve215, Vp240/260",⎯,4,4,转自EECS320
+Ve370,Intro to Comp. Org.,"Ve270, Ve280",⎯,4,4,转自EECS370
 Ve300,Technical Communication,Vg100,⎯,1,,
 Ve401,Probablistic Meth. in Engr.,"Vv156/186, 255/285, 256/286",⎯,4,,
 Ve450,Capstone Design,"Ve216, Ve280, Ve311",Ve496,4,,
-Ve496,Technical Communication,Ve300,Ve450,2,2,
+Ve496,Technical Communication,Ve300,Ve450,2,2,转自TCHNCLCM496
 
 
 Core Elective,0 credits required,0 credits completed
@@ -74,5 +74,3 @@ PE002,Physical Education II6,⎯,⎯,1,,
 PE003,Physical Education III6,⎯,⎯,1,,
 PE004,Physical Education IV6,⎯,⎯,1,,
 XP000,General Education Practice6,⎯,⎯,0,,
-
-

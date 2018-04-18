@@ -7,15 +7,16 @@ def map(transcript, mapper, template):
         equivalency = courseMapper.equivalency
         credits = courseMapper.credits
 
-        inTempate = false
+        inTempate = False
         for key, val in template.items():
             if(equivalency.upper() in key.upper()):
                 #print(courseMapper.toString())
                 val.grade = credits
-                inTempate = true
+                val.note = '转自:' + code
+                inTempate = True
                 break
 
-        if !inTempate:
+        if not inTempate:
             ## Put course in to category
             print('Put course in to category')
     else:
