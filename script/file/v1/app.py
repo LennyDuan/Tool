@@ -72,7 +72,7 @@ for key, val in transcript.items():
 ## Add Degree Course to Category
 #print('\n###### Start Add Degree Course to Category ######\n')
 for key, val in template.items():
-    if(category[val.category]):
+    if val.category in category:
         cat = category[val.category]
         cat.addCourse(val)
 

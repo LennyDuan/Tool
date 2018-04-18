@@ -3,9 +3,10 @@ from objects import DegreeCourse
 
 def map(transcript, mapper, template):
     code = transcript.code
+    print('---')
     if mapper[code]:
         courseMapper = mapper[code]
-        department = courseMapper.department
+        department = courseMapper.category
         equivalency = courseMapper.equivalency
         credits = courseMapper.credits
         course_name = courseMapper.title
@@ -14,7 +15,9 @@ def map(transcript, mapper, template):
 
         inTempate = False
         for key, val in template.items():
-            if(equivalency.upper() in key.upper()):
+            if equivalency and (equivalency.upper() in key.upper()):
+                print('Find in template: ' + code)
+                print('Equivalency: ' + equivalency + ' Key in template:' + key)
                 #print(courseMapper.toString())
                 val.grade = credits
                 val.note = '转自:' + code
@@ -23,7 +26,9 @@ def map(transcript, mapper, template):
 
         # Need to Add to Template
         if not inTempate:
-            if equivalency and not 'NULL':
+            print('Not find in template: ' + code)
+            if equivalency:
+                print('Equivalency: ' + equivalency)
                 ## Put course in to category with equivalency CODE
                 nbr = equivalency
                 note = '转自:' + code
@@ -32,14 +37,14 @@ def map(transcript, mapper, template):
                 # degreeCourse = DegreeCourse(nbr, course_name, findDepartment,
                 # prerequisite, corequisite, credits, credits,note)
                 # template[nbr] = degreeCourse
-                print('Put course in to category')
             else :
+                print('Equivalency should be null: ' + equivalency)
                 nbr = code
-                node = '课程: ' + nbr + ' 无对应课号'
+                note = '此类别课程: ' + nbr + ' 无对应课号'
                 degreeCourse = DegreeCourse(nbr, course_name, department,
                 prerequisite, corequisite, credits, credits, note)
                 template[nbr] = degreeCourse
-                print('Put course in to category')
+                print('Create course in to category')
 
     # Need to Add to Template
     else:
