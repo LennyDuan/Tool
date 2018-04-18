@@ -7,12 +7,19 @@ def map(transcript, mapper, template):
         equivalency = courseMapper.equivalency
         credits = courseMapper.credits
 
+        inTempate = false
         for key, val in template.items():
             if(equivalency.upper() in key.upper()):
                 #print(courseMapper.toString())
                 val.grade = credits
+                inTempate = true
                 break
+
+        if !inTempate:
+            ## Put course in to category
+            print('Put course in to category')
     else:
+        # No code found in Map, should be General with origin Data
         print('Cannot find the course' + transcript)
 
 def writeCSV(category, path, major):
