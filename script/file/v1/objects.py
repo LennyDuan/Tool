@@ -8,8 +8,8 @@ class DegreeCategory:
 
     def addCourse(self, degreeCourse):
         self.degreeCourses.append(degreeCourse)
-        if degreeCourse.grade:
-            self.completed += int(degreeCourse.grade)
+        if degreeCourse.chrs:
+            self.completed += int(degreeCourse.chrs)
 
     def toString(self):
         print('Category: [' + self.name +'] Required Creds: [' + self.required +']')
@@ -37,8 +37,8 @@ class DegreeCourse:
     def toString(self):
         print('Degree Course Nbr: [' + self.nbr + '] Course_Name: [' + self.course_name
         + '] Category: [' + self.category + ']')
-        if self.grade:
-            print('Grade: [' + self.grade+ '] ')
+        if self.chrs:
+            print('Chrs: [' + self.chrs+ '] ')
         if self.note:
             print('Note: [' + self.note+ '] ')
 

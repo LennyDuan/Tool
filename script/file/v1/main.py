@@ -18,7 +18,7 @@ def map(transcript, mapper, template):
                 #print('Find in template: ' + code)
                 #print('Equivalency: ' + equivalency + ' Key in template:' + key)
                 #print(courseMapper.toString())
-                val.grade = credits
+                val.chrs = credits
                 val.note = '转自:' + code
                 inTempate = True
                 break
@@ -41,7 +41,7 @@ def map(transcript, mapper, template):
                 nbr = code
                 note = '此类别课程: ' + nbr + ' 无对应课号'
                 degreeCourse = DegreeCourse(nbr, course_name, department,
-                prerequisite, corequisite, credits, credits, note)
+                prerequisite, corequisite, credits, '', note)
                 template[nbr] = degreeCourse
                 #print('Create course in to category')
 
@@ -60,7 +60,7 @@ def map(transcript, mapper, template):
             note = '直接转化 Intellectual Breadth 课程: ' + code
             #print('Is IB Category: '  + category)
         degreeCourse = DegreeCourse(code, course_name, category,
-        '-', '-', credits, credits, note)
+        '-', '-', credits, '', note)
         template[code] = degreeCourse
         # No code found in Map, should be General/IB with origin Data
 
