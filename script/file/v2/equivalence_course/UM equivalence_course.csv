@@ -1,0 +1,294 @@
+1,1,Aerospace,AE285,Aerospace Engineering Seminar,1,,VE300,,,1,NULL,NULL
+2,2,Aerospace ,AE215,Introduction to Solid Mechanics & Aerospace Structures,4,,VM211,,,4,NULL,200
+3,3,Aerospace,AERO225,Intro to Gas Dynamics,4,,VM320,,,3,NULL,300
+4,4,Aerospace,AE305,Introduction to Instrumentation and Measurement,4,,VM395,,,4,NULL,300
+5,5,Aerospace,AERO347+348,Space Flight Mechanics/ Aircraft  Dynamics and Control,3+3,,VM360,,,4,NULL,300
+6,6,Aerospace,AE405,Advanced Instrumentation and Measurement,4,,VM495,,,4,NULL,400
+7,7,Aerospace,AE315,Aircraft and Spacecraft Structures,4,,VM311,,,3,NULL,NULL
+8,8,Aerospace Engineering,AE201,Introduction to Aerospace Engineering,3,,NULL,,General Elective,3,NULL,NULL
+9,9,Aerospace Engineering,AE205,Introduction to Aerospace Engineering Systems,3,,,,General Elective,3,NULL,NULL
+10,10,Aerospace Engineering,AE335,Aerospace Propulsion,4,,,,Flexible Technical Elective,4,NULL,300
+11,11,Aerospace Engineering,AE423,Computational Methods for Aerospace Engineering,3,,,Not transferable to Advanced Math after 2018/01/20  ,,3,,400
+12,12,Aerospace Engineering,AE481,Aircraft Design,4,,,,Flexible Technical Elective,4,NULL,400
+13,13,Aerospace Engineering,AE490,Directed Study,,,,,General Elective,,NULL,NULL
+14,14,Aerospace Engineering,AE325,Aerodynamics,4,,VM320,"It will not be reevaluated for VM320 after May, 2018.",,3,NULL,NULL
+15,15,Aerospace Engineering,AE590,Directed Study,,,,,General Elective,,NULL,NULL
+16,16,Aerospace Engineering,AE225,Introduction to Gas Dynamics,4,,,Not Transferable to VM320 after 2015.12.23,General Elective,4,NULL,200
+17,17,Aerospace Engineering,AE390+AE490,Directed Study,,,,Not transferable to VM350,,,NULL,NULL
+ ,,,,,,,,,,,,
+18,1,Biomedical Engineering,BIOMEDE221,Biophysical Chemistry and Thermodynamics,4,,,,General Elective,4,NULL,NULL
+19,2,Biomedical Engineering,BIOMEDE231,Introduction to Biomechanics,4,,,,General Elective,4,NULL,NULL
+20,3,Biomedical Engineering,BIOMEDE241,Introductory Biomedical Engineering Laboratory,4,,,,General Elective,4,NULL,NULL
+21,4,Biomedical Engineering,BIOMEDE418,Quantitative Cell Biology,3,,,,Flexible Technical Elective,3,NULL,400
+22,5,Biomedical Engineering,BIOMEDE419,Quantitative Physiology,4,,,,Flexible Technical Elective,4,NULL,400
+23,6,Biomedical Engineering,BIOMEDE211,Circuits and Systems for Biomedical Engineers,,,VE215,,,4,NULL,200
+24,7,Biomedical Engineering,BIOMEDE332,Introduction to Biosolids Mechanics,4,,,,Flexible Technical Elective,4,NULL,300
+25,8,Biomedical Engineering,BIOMEDE350,Introduction to Biomedical Engineering Design,3,,,,Flexible Technical Elective,3,NULL,300
+26,9,Biomedical Engineering,BIOMEDE450,Biomedical Design,4,,,,Flexible Technical Elective,4,NULL,400
+27,10,Biomedical Engineering,BIOMEDE458,Biomedical Instrumentation & Design,,,VM495,,,4,NULL,400
+,,,,,,,,,,,,
+28,1,Computer Science and Engineering,EECS441,Mobile App Development for Entrepreneurs,4,,,,Flexible Tech. Elective,4,ECE,400
+29,2,Computer Science,CMSC426,Image Processing,3,,,,Flexible Tech. Elective,3,ECE,400
+,,,,,,,,,,,,
+30,1,Chemical Engineering,CHE330,Chemical & Engineering Thermodynamics,4,,,,Flexible Technical Elective,4,NULL,300
+31,2,Chemical Engineering,CHE344,Reaction Engineering and Design,4,,,,Flexible Technical Elective,4,NULL,300
+32,3,Chemical Engineering,CHE330,Chemical & Engineering Thermodynamics,,,VM235,,,3,NULL,200
+33,4,Chemical Engineering,CHE341,Fluid Mechanics,4,,VM320,,,3,NULL,300
+34,5,Chemical Engineering,CHE342,Mass & Heat Transfer,4,,VM335,,,3,NULL,300
+35,6,Chemical Engineering,CHE360,Chemical Engineering Laboratory I,4,,VM395,,,4,NULL,300
+36,7,Chemical Engineering,CHE360+460,CHE Lab I & II,,,VE496,, ,2,NULL,NULL
+37,8,Chemical Engineering,CHE460,Chemical Engineering Laboratory II,4,,VM495,,,4,NULL,NULL
+38,9,Chemical Engineering,CHE466,Process Control and Dynamics,,,VM360,,,4,NULL,NULL
+39,10,Chemical Engineering,CHE230+330,Material and Energy Blances+Thermodynamics,,,VM235,,,3,NULL,NULL
+40,11,Chemical Engineering,CHE485,Chemical Engineering Process Economics,1,,,,Flexible Technical Elective,1,NULL,300
+41,12,Chemical Engineering,CHE343,Separation Process,4,,,,Flexible Technical Elective,4,NULL,300
+42,13,Chemical Engineering,CHE360 +CHE460  ,Chemical Engineering Laboratory I+Chemical Engineering Laboratory II,4+4,,,,Flexible Tech. Elective,4,ECE,400
+,,,,,,,,,,,,
+43,1,Climate and Space Sciences and Engineering,AOSS320,Earth System Evolution,,,,,Flexible Technical Elective,,NULL,300
+44,2,Climate and Space Sciences and Engineering,AOSS321,Earth System Dynamics,,,,,Flexible Technical Elective,,NULL,300
+45,3,Climate and Space Sciences and Engineering,AOSS323,Earth System Analysis,4,,,,Flexible Technical Elective,4,NULL,300
+46,4,Climate and Space Sciences and Engineering,AOSS370,Solar-Terrestrial Relations,4,,,,Flexible Technical Elective,4,NULL,300
+47,5,Climate and Space Sciences and Engineering,AOSS410,Earth System Modeling,4,,,,Flexible Technical Elective,4,NULL,400
+48,6,Climate and Space Sciences and Engineering,AOSS411,"Clouds, Precipitation, and Aerosols",3,,,,Flexible Technical Elective,3,NULL,400
+49,7,Climate and Space Sciences and Engineering,AOSS421,Introduction to Physical Oceanography,3,,,,Flexible Technical Elective,3,NULL,400
+50,8,Climate and Space Sciences and Engineering,AOSS473,Climate Physics,3,,,,Flexible Technical Elective,3,NULL,400
+51,9,Climate and Space Sciences and Engineering,AOSS474,Ice Sheets and Climate,3,,,,Flexible Technical Elective,3,NULL,400
+52,10,Climate and Space Sciences and Engineering,AOSS475,Earth System Interactions,4,,,,Flexible Technical Elective,4,NULL,400
+53,11,Climate and Space Sciences and Engineering,AOSS401,Geophysical Fluid Dynamics,4,,,,Flexible Technical Elective,4,NULL,300
+54,12,Climate and Space Sciences and Engineering,AOSS350,Atmospheric Thermodynamics,3,,,,Flexible Technical Elective,3,NULL,300
+,,,,,,,,,,,,
+55,1,Civil and Environmental Engineering,CEE365,Environmental Engineering Principles,4,,,,Flexible Technical Elective,4,NULL,300
+56,2,Civil and Environmental Engineering,CEE402,Professional Issues and Design,4,,,,,4,NULL,400
+57,3,Civil and Environmental Engineering,CEE428,Introduction to groundwater hydrology,3,,,,Flexible Technical Elective,3,NULL,400
+58,4,Civil and Environmental Engineering,CEE482,Environmental Microbiology,3,,,,Flexible Technical Elective,3,NULL,400
+59,5,Civil and Environmental Engineering,CEE522,Sediment Transport,3,,,,Flexible Technical Elective,3,NULL,400
+60,6,Civil and Environmental Engineering,CEE465,Environmental Process Engineering,3,,,,Flexible Technical Elective,3,NULL,400
+61,7,Civil and Environmental Engineering,CEE481,Aquatic Chemistry,3,,,,Flexible Technical Elective,3,NULL,400
+62,8,Civil and Environmental Engineering,CEE526,Design of Hydraulic System,3,,VM421,,,3,NULL,NULL
+63,9,Civil and Environmental Engineering,CEE312,Structural Engineering,4,,,,Flexible Technical Elective,4,NULL,300
+64,10,Civil and Environmental Engineering,CEE345,Geotechnical Engineering,4,,,,Flexible Technical Elective,4,NULL,300
+65,11,Civil and Environmental Engineering,CEE351,Civil Engineering Materials,4,,,,Flexible Technical Elective,4,NULL,300
+66,12,Civil and Environmental Engineering,CEE421,Hydrology and Floodplain Hydraulics,4,,,,Flexible Technical Elective,4,NULL,400
+67,13,Civil and Environmental Engineering,CEE211,Statics and Dynamics,4,,VM240,,,4,NULL,NULL
+68,14,Civil and Environmental Engineering,CEE212,Solid and Structural Mechanics,,,VM211,,,4,NULL,NULL
+69,15,Civil and Environmental Engineering,CEE230,Thermodynamics and the Environment,3,,VM235,,,3,NULL,NULL
+70,16,Civil and Environmental Engineering,CEE270,Statistical Methods for Data Analysis & Uncertainty Modeling,3,,VE401,,,4,NULL,NULL
+71,17,Civil and Environmental Engineering,CEE312+345+351+366+421,CEE312+345+351+366+421,,,VM495,,,4,NULL,NULL
+72,18,Civil and Environmental Engineering,CEE325,Fluid Mechanics,4,,VM320,,,3,NULL,NULL
+73,19,Civil and Environmental Engineering,CEE351+ME395,CEE351+ME395,,,,Not Transferable to VM382 after 2015.12.23,,,NULL,NULL
+74,20,Civil and Environmental Engineering,CEE303,Computational Methods,4,,,,Advanced Mathematics,4,Mathematics,300
+,,,,,,,,,,,,
+75,1,Engineering,PHYS166,Physics today and tomorrow,,,VE334,NULL,,4,NULL,300
+76,2,Engineering,PHYS326/426,Physical Optics,,,VE334,,,4,NULL,300
+77,3,Engineering,ENTR390.013,TechLab Independent Study,3,,,NULL,GeneraL Elective,3,NULL,NULL
+78,4,Engineering Division,ENGR355,Intermediate Multidisciplinary Engineering Project,,,,,Flexible Technical Elective,,NULL,300
+79,5,Engineering Division,ENGR455,Advanced Multidisciplinary Engineering Project,,,,,Flexible Technical Elective,,NULL,400
+,,,,,,,,,,,,
+80,1,Electrical Engineering and Computer Science,EECS203,Discrete Mathematics,4,,VE203,NULL,,4,NULL,NULL
+81,2,Electrical Engineering and Computer Science,EECS460,Control Systems Analysis and Design,4,,VE460,VE460+1 credit 400 level ECE Flexible Technical Elective,,3+1,NULL,NULL
+82,3,Electrical Engineering and Computer Science,EECS482,Introduction to Operating Systems ,4,,VE482,NULL,,4,NULL,NULL
+83,4,Electrical Engineering and Computer Science,EECS496,Major Design Experience Professionalism,2,,VG496,NULL,,2,NULL,NULL
+84,5,Electrical Engineering and Computer Science,EECS398,Special Topics: Computing for Computer Scientists,1,,,,Upper Level Technical Elective,1,ECE ,NULL
+85,6,Electrical Engineering and Computer Science,EECS484,Database Management System,4,,,,Upper Level Technical Elective,4,ECE, 
+86,7,Electrical Engineering and Computer Science,EECS215,Introduction to Electronic Circuits,4,,VE215,,,4,NULL,NULL
+87,8,Electrical Engineering and Computer Science,EECS475,Introduction to Cryptography,4,,VE475,,,4,NULL,NULL
+88,9,Electrical Engineering and Computer Science,EECS489,Computer Networks,4,,VE489,,,4,NULL,NULL
+89,10,Electrical Engineering and Computer Science,TCHNCLCM300,Technical Communication for Electrical and Computer Science,1,,VE300,,,1,NULL,NULL
+90,11,Electrical Engineering and Computer Science,TCHNCLCM496,Advanced Technical Communication for Electrical Engineering and Computer Engineering,2,,VE496,,,2,NULL,NULL
+91,12,Electrical Engineering and Computer Science,TCHNCLCM497,Advanced Technical Communication for Computer Science,2,,VE496,,,2,NULL,NULL
+92,13,Electrical Engineering and Computer Science,EECS270,Introduction to Logic Design,4,,VE270,,,4,NULL,NULL
+93,14,Electrical Engineering and Computer Science,EECS280,Programming and Data Structure,4,,VE280,,,4,NULL,NULL
+94,15,Electrical Engineering and Computer Science,EECS281,Data Structures and Algorithms,4,,VE281,,,4,NULL,NULL
+95,16,Electrical Engineering and Computer Science,EECS320,Introduction to Semiconductor Devices,4,,VE320,,,4,NULL,NULL
+96,17,Electrical Engineering and Computer Science,EECS470,Computer Architecture,4,,VE370,Only valid for EECS470 in WN2014,,4,NULL,NULL
+97,18,Electrical Engineering and Computer Science,EECS334,Principles of Optics,4,,VE334,,,4,NULL,NULL
+98,19,Electrical Engineering and Computer Science,EECS423,Solid State Device Laboratory,4,, ,,Upper Level Technical Elective,4,ECE,400
+99,20,Electrical Engineering and Computer Science,EECS413,An Introduction to Analog and Mixed Signal Design (Monolithic Amplifier Circuits),4,,VE413  ,,Upper Level Technical Elective,4,ECE,NULL
+100,21,Electrical Engineering and Computer Science,EECS427,VLSI Design I,4,,,,Upper Level Technical Elective,4,ECE,NULL
+101,22,Electrical Engineering and Computer Science,EECS461,Embedded Control System,4,,,,Upper Level Technical Elective,4,ECE,NULL
+102,23,Electrical Engineering and Computer Science,EECS467,Autonomous Robotics,4,,,,Upper Level Technical Elective,4,ECE,NULL
+103,24,Electrical Engineering and Computer Science,EECS473,Advanced Embedded System,4,,,,Upper Level Technical Elective,4,ECE,NULL
+104,25,Electrical Engineering and Computer Science,EECS478,Logic Circuit Synthesis and Optimization,4,,,,Upper Level Technical Elective,4,ECE,NULL
+105,26,Electrical Engineering and Computer Science,EECS498,Special topic: Introduction to Natural Language Processing,4,,,,Upper Level Technical Elective,4,NULL,NULL
+106,27,Electrical Engineering and Computer Science,EECS311,Analog Circuits,4,,VE311,,,4,,NULL
+107,28,Electrical Engineering and Computer Science,EECS370,INTRODUCTION TO COMPUTER ORGANIZATION,4,,VE370,, ,4,NULL,NULL
+108,29,Electrical Engineering and Computer Science,EECS285,A Programming Language or Computer System,2,,,NULL, ,2,NULL,NULL
+109,30,Electrical Engineering and Computer Science,EECS312,Digital Integrated Circuits,4,,VE312,NULL,NULL,4,NULL,NULL
+110,31,Electrical Engineering and Computer Science,EECS314,"Electric, Circuit, System and Application",4,,VE215 ,NULL,NULL,4,NULL,NULL
+111,32,Electrical Engineering and Computer Science,EECS301,Probabilistic Methods in Engineering,4,,,Not equivalent to VE401,Flxible Technical Elective/ Advanced Mathematics,4,ECE/ME,NULL
+112,33,Electrical Engineering and Computer Science,EECS373,Design of Microprocessor-Based Systems,4,,VE373 ,NULL,NULL,4,NULL,NULL
+113,34,Electrical Engineering and Computer Science,EECS376,Foundations of Computer Science,4,,,NULL,Upper Level Technical Elective,4,ECE,NULL
+114,35,Electrical Engineering and Computer Science,EECS388,Introduction to Computer Security,4,,,NULL,Flxible Technical Elective,4,ECE,NULL
+115,36,Electrical Engineering and Computer Science,"EECS398:003,004,005",Computing for Computer Scientists,1,,,NULL,Upper Level Technical Elective ,1,ECE,NULL
+116,37,Electrical Engineering and Computer Science,EECS398-004,Introduction to Autonomous Robotics,3,,,NULL,Upper Level Technical Elective,3,ECE,NULL
+117,38,Electrical Engineering and Computer Science,EECS442,Computer Vision,4,,,Not Foundation course in engineering,Upper Level Technical Elective,4,ECE,NULL
+118,39,Electrical Engineering and Computer Science,EECS445,Introduction to Machine Learning,4,,,Not Foundation course in engineering,Upper Level Technical Elective,4,ECE,NULL
+119,40,Electrical Engineering and Computer Science,EECS470,Computer Architecture,4,,,NULL,Upper Level Technical Elective,4,ECE,NULL
+120,41,Electrical Engineering and Computer Science,EECS481,Software Engineering,4,,,NULL,Flxible Technical Elective,4,ECE,NULL
+121,42,Electrical Engineering and Computer Science,EECS483,Compiler Construction,4,,,NULL,Flxible Technical Elective,4,ECE,NULL
+122,43,Electrical Engineering and Computer Science,EECS485,Web Databases and Information Systems,4,,,NULL,Flxible Technical Elective,4,ECE,NULL
+123,44,Electrical Engineering and Computer Science,EECS492,Introduction to Artificial Intelligence,4,,,,Upper Level Technical Elective,4,ECE,NULL
+124,45,Electrical Engineering and Computer Science,EECS493,User Interface Development,4,,,NULL,Flxible Technical Elective,4,ECE,NULL
+125,46,Electrical Engineering and Computer Science,EECS494,Game Design and Implementation,4,,,NULL,Flxible Technical Elective,4,ECE,NULL
+126,47,Electrical Engineering and Computer Science,EECS498-004,Introduction to Natural Language Processing,4,,,NULL,Upper Level Technical Elective,4,ECE,NULL
+127,48,Electrical Engineering and Computer Science,EECS351,Digital Signal Processing and Analysis,4,,VE451,NULL,NULL,4,NULL,NULL
+128,49,Electrical Engineering and Computer Science,EECS230,Electromagnetics I,4,,VE230 ,NULL,NULL,4,NULL,NULL
+129,50,Electrical Engineering and Computer Science,EECS216,Introduction to Signals and Systems,4,,VE216,NULL,NULL,4,NULL,NULL
+130,51,Electrical Engineering and Computer Sciences,EECS555,Digital Communication Theory,3,,,,Flexible Tech. Elective,3,ECE,400
+131,52,Electrical Engineering and Computer Sciences,ME564/AE550/CEE571/EECS560,Linear System Theory,4,,,,Upper Level Tech. Elective,4,,
+132,53,Electrical Engineering and Computer Science,EECS627,VLSI Design II,4,,,,Flexible Tech. Elective,4,,
+133,54,Electrical Engineering and Computer Sciences,EECS455,Digital Communication Signals & Systems,,,,,Upper Level Tech. Elective,4,,
+134,55,Electrical Engineering and Computer Sciences,EECS477,Introduction to Algorithms ,4,,VE477,,,4,,
+135,56,Electrical Engineering and Computer Sciences,EECS398,Internet Foundations,3,,,,Flexible Technical Elective,3,ECE,300
+136,57,Electrical Engineering and Computer Sciences,EECS411,Microwace Circuits I,4,,VE411,,,4,,400
+137,58,Electrical Engineering and Computer Sciences,EECS429,Semiconductor Optoelectronic Devices,4,,,,Flexible Technical Elective,4,ECE,400
+138,59,Electrical Engineering and Computer Sciences,EECS486,Information Retrieval and Web Search,4,,,Not Upper Level,Flexible Technical Elective,4,ECE,400
+139,60,Electrical Engineering and Computer Sciences ,EECS498-002,Introduction to Distributed Systems,4,,,,Flexible Technical Elective ,4,ECE,400
+140,61,Electrical Engineering and Computer Sciences,EECS498-004,Multidisciplinary Software Dev (aka MDP),4,,,,Flexible Technical Elective,4,ECE,400
+,,,,,,,,,,,,
+141,1,IOE & EECS,IOE265+EECS445,Probability and Statistics for Engineers + Introduction to Machine Learning,3+4,,VE401,,,4,NULL,NULL
+,,,,,,,,,,,,
+142,1,Industrial & Operations Engineering,IOE201,Economic Decision Making,2,, ,,General Elective/Flexible Technical Elective,2,ME/ECE,200
+143,2,Industrial & Operations Engineering,IOE333,Ergonomics,3,, ,,Flexible Technical Elective,3,NULL,300
+144,3,Industrial & Operations Engineering,IOE265,Engineering Probability and Statistics,,,VE401,,,4,NULL,NULL
+145,4,Industrial & Operations Engineering,TC300,Introduction to Professional Communication,1,,VE300,NULL,,1,NULL,NULL
+146,5,Industrial & Operations Engineering,TC380,Technical Communication in IOE,2,,VE496,NULL,,2,NULL,NULL
+147,6,Industrial & Operations Engineering,TC496,Advanced Technical Communication for EECS,2,,VE496,NULL,,2,NULL,NULL
+148,7,Industrial & Operations Engineering,TC497,Program in Technical Communication,2,,VE496,NULL,,2,NULL,NULL
+149,8,Industrial and Operation Engineering,IOE516,Stochastic Process 2,3,,,,Upper Level Tech. Elective,3,ECE ,400
+150,9,Industrial & Operations Engineering,IOE202,Operations Modeling,2,,,,General Elective,2,NULL,NULL
+151,10,Industrial & Operations Engineering,IOE373,Data Processing,4,,,,Flexible Tech. Elective,4,,300
+152,11,Industrial & Operations Engineering,IOE419,Service Operations Management,3,,,,Flexible Technical Elective,3,NULL,400
+153,12,Industrial & Operations Engineering,IOE425,Lean Manufacturing and Services Strategies,2,,,,Flexible Technical Elective,2,NULL,400
+154,13,Industrial & Operations Engineering,IOE430,Global Cultural Systems Engineering,3,,,,Flexible Technical Elective,3,NULL,400
+155,14,Industrial & Operations Engineering,IOE438,Safety Management,2,,,,Flexible Technical Elective,2,NULL,400
+156,15,Industrial & Operations Engineering,IOE441,Production and Inventory Control,3,,,,Flexible Technical Elective,3,NULL,400
+157,16,Industrial & Operations Engineering,IOE452,Corporate Finance,3,,,,Flexible Technical Elective,3,NULL,400
+158,17,Industrial & Operations Engineering,IOE453,Derivative Instruments,3,,,,Flexible Technical Elective,3,NULL,400
+159,18,Industrial & Operations Engineering,IOE461,Quality Engineering Analysis,3,,,,Flexible Technical Elective,3,NULL,400
+160,19,Industrial & Operations Engineering,IOE474,Simulation,4,,,,Flexible Technical Elective,4,NULL,400
+161,20,Industrial & Operations Engineering,IOE565,"Time Series Modeling, Analysis, Forecasting and Control",3,,,,Flexible Technical Elective,3,NULL,400
+162,21,Industrial & Operations Engineering,IOE310,Introduction to Optimization Methods,4,,,,Flexible Technical Elective,4,NULL,300
+163,22,Industrial & Operations Engineering,IOE316,Introduction to Markov Processes,3,,,,Flexible Technical Elective,3,NULL,300
+164,23,Industrial & Operations Engineering,IOE334,Ergonomics Laboratory,1,,,,Flexible Technical Elective,1,NULL,300
+165,24,Industrial & Operations Engineering,IOE413,Optimization Modeling in Health Care,3,,,,Flexible Technical Elective,3,NULL,400
+166,25,Industrial & Operations Engineering,IOE434,Human Error and Complex System Failures,3,,,,Flexible Technical Elective,3,NULL,400
+167,26,Industrial & Operations Engineering,IOE460,Decision Analysis,3,,,,Flexible Technical Elective,3,NULL,400
+168,27,Industrial & Operations Engineering,IOE510,Linear Programming I,3,,,,Flexible Technical Elective,3,NULL,400
+169,28,Industrial & Operations Engineering,IOE424,Practicum in Production and Service Systems,4,, ,,General Elective,4,,
+170,29,Industrial & Operations Engineering,IOE440,Operations Analysis and Management,NULL,,,,Flexible Tech. Elective,3,Neither ECE nor ME,
+171,30,Industrial & Operations Engineering,IOE265 + IOE366,Probability and Statistics For Engineers+IOE366 Linear Statistical Models,4,,VE401,NULL,NULL,4,NULL,NULL
+172,31,Industrial & Operations Engineering,IOE466,STATISTICAL QUALITY CONTROL,3,,NULL,Not Adv. Math course,Flexible Technical Elective ,3,Mathematics,NULL
+173,32,Industrial & Opeartions Engineering,IOE366,Linear Statical Models,2,,,Not Adv. Math course because no calculus required.,General Elective,2,Mathematics,500
+174,33,Industrial and Operations Engineering,IOE515,Stochastic Processes,3,,,,Flexible Tech. Elective,3,ECE,400
+,,,,,,,,,,,,
+175,1,"LSA, Department of Economics",ECON102,Principles of Econ II: Macroeconomics,4,,,,Intellectual Breadth  ,4,Social Science,NULL
+176,2,"LSA, Department of Economics",ECON340,International Economics,3,,,,Intellectual Breadth  ,3,Social Science,NULL
+177,3,LSA Chemistry,CHEM210,Structure and Reactivity I,4,,,,General Elective,4,,NULL
+178,4,LSA Biology,BIOLOGY172,"Introductory Biology - Molecular, Cellular, and Developmental",4,,,,General Elective,4,NULL,NULL
+179,5,Economics,ECON101,Principles of Microeconomics,4,,VF101,,,4,NULL,NULL
+180,6,Economics,ECON401,Intermediate Microeconomic Theory,4,,,,Intellectual Breadth ,4,Social Science ,400
+181,7,Economics department,ECON320,Introduction to Labor Economics,3,,NULL,,Intellectual Breadth  ,3,Social Science,300
+182,8,"Literature, Science and the Arts",MATH451,Advanced Calculus,3,,,NULL,GeneraL Elective,3,NULL,NULL
+183,9,"Literature, Science and the Arts",STATS509 ,Statistical Models and Methods for Financial Data,3,,,NULL,Advanced Mathematics,3,ME,NULL
+184,10,"Literature, Science and the Arts",MATH506 ,Stochastic Analysis for Finance,3,, ,NULL,Advanced Mathematics,3,ME,NULL
+185,11,"Literature, Science and the Arts",MATH525,Probability Theory,3,, ,Not transferrable to VE501 after 2021/12/23,Advanced Mathematics,3,Mathematics,
+186,12,"Literature, Science and the Arts",MATH217,Linear Algebra,4,,VV214,,,4,Math,
+187,13,"Literature, Science and the Arts",Math472,Numerical Mehtods with Financial Applications ,3,,,,Advanced Mathematics,3,Mathematics,400
+188,14,"Literature, Science and the Arts",MATH526,Discrete State Stochastic Processes,3,,,Not equivalent to VE501,Upper Level Technical Elective/ Advanced Mathematics,3,ECE/ME,NULL
+189,15,"Literature, Science and the Arts",POLSCI339,China's Evolution Under Communism,,,,,Intellectual Breadth,,Social Science ,NULL
+190,16,"Literature, Science and the Arts",RCHUMS334,Documentary Theatre:  Contemporary Theatre History and Practical Experience,,,,,Intellectual Breadth ,,Humanities ,NULL
+191,17,"Literature, Science and the Arts",ASIAN319,Spirits of Contemporary Japan in Popular Culture,3,,,,Intellectual Breadth  ,3,Humanities ,NULL
+192,18,"Literature, Science and the Arts",ASIAN363,Chinese Theatre and Drama,3,,,,Intellectual Breadth  ,3,Humanities ,NULL
+193,19,"Literature, Science and the Arts",ASIANLAN135 ,First Year Korean I,5,,, ,Request Received,,NULL,NULL
+194,20,"Literature, Science and the Arts",ASIAN261,Introduction to Modern Chinese Culture,,,, ,Request Received,,NULL,NULL
+195,21,"Literature, Science and the Arts",MATH481,Introduction to Mathematical Logic,,,,Not Adv. Math as no calculus required.,General Elective,3,Math,400
+196,22,"Literature, Science and the Arts",MATH404 /CMPLXSYS541 /PHYS413,MATH 404/CMPLXSYS 541/PHYS 413,3,,,,Advanced Mathematics,3,Mathematics,400
+197,23,"Literature, Science and the Arts",MATH471 ,Introduction to Numerical Analysis,3,,,,Advanced Mathematics,3,Mathematics,400
+198,24,"Literature, Science and the Arts",ASIAN312,After Defeat: The Cultural History of Postwar Japan,,,,,Request Received,,NULL,NULL
+199,25,"Literature, Sciences and Arts",MATH425+STATS426,,3+3,,VE401,,,4,,
+200,26,"Literature, Science and the Arts",PHYSICS463,Introduction to Solid State Physics,3,,VE504,,,3,,
+201,27,"Literature, Science and the Arts",PHYSICS340,"Waves, Heat, and Light",3,,,,Flexible Technical Elective,3,Physics,300
+202,28,"Literature, Science and the Arts",PHYSICS351,Methods of Theoretical Physics I,3,,,,Flexible Technical Elective,3,Physics,300
+203,29,"Literature, Science and the Arts",PHYSICS390,Introduction to Modern Physics,3,,VP390,,,3,Physics,300
+204,30,"Literature, Science and the Arts",PHYSICS391,Introduction to Modern Physics Laboratory,2,,,,Flexible Technical Elective,2,Physics,300
+205,31,"Literature, Science and the Arts",PHYSICS406,Statistical and Thermal Physics,,,,"3 credits before FA2017, 4 credits since FA2017",Flexible Technical Elective,,Physics,400
+206,32,"Literature, Science and the Arts",PHYSICS411,Introduction to Computational Physics,3,,,,Flexible Technical Elective,3,Physics,400
+207,33,"Literature, Science and the Arts",PHYSICS441,Advanced Laboratory,3,,,,Flexible Technical Elective,3,Physics,400
+208,34,"Literature, Science and the Arts",PHYSICS453,Quantum Mechanics,,,,"3 credits before FA2017, 4 credits since FA2017",Flexible Technical Elective,,Physics,400
+209,35,"Literature, Science and the Arts",ECON402,Intermdiate Macroeconomic Theory,4,,,,Intellectual Breadth (Social Sciences),4,Social Science,400
+210,36,"Literature, Science and the Arts",ECON452,Intermediate Introduction to Statistics and Econometrics II,4,,,,Flexible Technical Elective,4,Entrepreneurship&Business,300
+211,37,Physics,PHYSICS390,Intro Modern Phys,,,VP390,,,3,Physics,NULL
+212,38,Physics,PHYSICS405,Intermediate Electricity and Magnetism,,, ,,Flexible Technical Elective,4,Physics,400
+213,39,Statistics,STATS412,Introduction to Probability and Statistics,3,,VE401,,,4,Mathematics,NULL
+214,40,Statistics ,STATS485 ,Capstone Seminar,3,,,,Flexible Technical Elective ,,Mathematics,400
+215,41,Statistics,STATS250,Introduction to Statistics and Data Analysis,4,,VE401,,,4,NULL,NULL
+216,42,Statistics,STATS426,Introduction to Theoretical Statistics,3,, ,,Advanced Mathematics,3,Mathematics,500
+,,,,,,,,,,,,
+217,,MED Biological Chemistrym,BIOLCHEM415,Introductory Biochemistry,3,,,,Flexible Technical Elective,3,NULL,400
+218,,Mechanical Engineering,ME235,Thermodynamics I,3,,VM235,NULL,,3,NULL,NULL
+219,,Mechanical Engineering,ME335,Heat Transfer,3,,VM335,NULL,,3,NULL,NULL
+220,,Mechanical Engineering,ME395,Laboratory I,4,,VM395,NULL,,4,NULL,NULL
+221,,Mechanical Engineering,ME450,Design and Manufacturing III,4,,VE496,,,2,NULL,NULL
+222,,Mechanical Engineering,ME461,Automatic Control,3,,VE460/VM461,,,3,ECE/ME,NULL
+223,,Mechanical Engineering,ME320,Fluid Mechanics,3,,VM320,,,3,NULL,300
+224,,Mechanical Engineering,ME350,Design and Manufacturing II,4,,VM350,,,4,NULL,300
+225,,Mechanical Engineering,ME495,Laboratory II,4,,VM495,,,4,NULL,NULL
+226,,Mechanical Engineering,ME360,"Modeling, Analysis, and Control of Dynamic Systems",4,,VM360,,,4,NULL,NULL
+227,,Mechanical Enigineering,ME401,Statistical Quality Control and Design,3,,,,Flexible Tech. Elective,3,ME,400
+228,,Mechanical Engineering,ME382,Mechanical Behavior of Materials,4,,VM382,,,4,,
+,,,,,,,,,,,,
+229,,Material Science and Engineering,MSE412,Polymeric Materials ,3,,,,Flexible Tech. Elective,3,ECE ,400
+230,,Material Science and Engineering,MSE350,Principle of Engineering Materials II,,,,Not Transferable to VM382 after 2015-12-23.,,,NULL,NULL
+231,,Material Science and Engineering,MSE335,Kinetics and Transport in Materials Engineering,4,,,Not Transferable to VM335 after 2015.12.23,Flexible Technical Elective,4,NULL,400
+232,,Material Science and Engineering,MSE360,Materials Laboratory I,3,,VM395,,,4,NULL,NULL
+233,,Material Science and Engineering,MSE400,"Electronic, Magnetic, and Optical Materials for Modern Device Technology",3,,,,Flexible Technical Elective,3,NULL,400
+234,,Material Science and Engineering,MSE480+MSE489,"MSE480 Materials and Engineering Design, MSE489 Materials Processing & Design",3+3,,VE496 + 4 Credits Flexible Technical Elective,,,2+4,NULL,NULL
+235,,Material Science and Engineering,MSE242,Physics of Materials,4,,VP390,,,3,NULL,NULL
+236,,Material Science and Engineering,MSE330,Thermodynamics of Materials,4,, ,,Flexible Technical Elective,4,NULL,300
+237,,Material Science and Engineering,MSE350,Structure of Materials,4,,VK250 or Flexible Technical Elective 300-level (ME),,,4,NULL,NULL
+238,,Material Science and Engineering,MSE365,Materials Laboratory ,3,,VM495,,,4,NULL,NULL
+239,,Material Science and Engineering,MSE220,Introduction to Materials and Manufacturing,4,,VK250,,,4,NULL,NULL
+240,,Material Science and Engineering,MSE420,Mechanical Behavior of Materials,3,,VM382,,,4,NULL,NULL
+241,,Material Science and Engineering,MSE440,Fundamentals of Ceramic Materials,3,,,,Flexible Technical Elective,3,NULL,400
+242,,Material Science and Engineering,MSE454,Computational Approaches in Materials Science & Engineering,3,,,,Flexible Technical Elective,3,NULL,400
+243,,Material Science and Engineering,MSE470,Physical Metallurgy,3,,,,Flexible Technical Elective,3,NULL,400
+244,,Materials Science and Engineering,MSE514,Composite Materials,3,,,,Flexible Tech. Elective,3,ME/MSE,400
+,,,,,,,,,,,,
+245,,Mathematics,MATH417,Matrix Algebra,3,,VV214,,,4,NULL,NULL
+246,,Mathematics,MATH419,Linear Spaces and Matrix Theory,3,,VV214,,,4,NULL,NULL
+247,,Mathematics,MATH214,Linear Algebra,4,,VV214,NULL,,4,NULL,NULL
+248,,Mathematics,MATH354,Fourier Analysis and its Applications,3,,,,Advanced Mathematics,3,Mathematics,NULL
+249,,Mathematics,MATH412,Introduction to Modern Algebra,3,,,,Advanced Mathematics,3,Mathematics,NULL
+250,,Mathematics,MATH423,Mathematics of Finance,3,,,,Advanced Mathematics,3,Mathematics,NULL
+251,,Mathematics,MATH425,Introduction to Probability,3,,,"Covers no statistics, not equivalent to VE401 after 2015-12-23.",Advanced Mathematics,3,Mathematics,NULL
+252,,Mathematics,MATH493,Honors Algebra I,3,,,,Advanced Mathematics,3,Mathematics,NULL
+253,,Mathematics,MATH494,Honors Algebra II,3,,,,Advanced Mathematics,3,Mathematics,NULL
+254,,Mathematics,MATH371,Introduction to Numerical Methods,3,,VV371,,Advanced Mathematics,4,Mathematics,
+255,,Mathematics,MATH116,MATH116,,,VV156,,,4,Mathematics,NULL
+256,,Mathematics,MATH156,MATH156,,,VV156,,,4,Mathematics,NULL
+257,,Mathematics,MATH454,BV Prob-Pde,,,,,Advanced Math/Flexible Technical Elective,3,Mathematics,NULL
+258,,Mathematics,MATH525,Probability,,,VE501,,Advanced Mathematics,4,Mathematics,
+259,,Mathematics,MATH590,Introduction to Topology,3,,,,Advanced Mathematics,3,Mathematics,NULL
+260,,Mathematics,MATH465,Introduction to Combinatorics,3,,VE203,,,4,NULL,NULL
+,,,,,,,,,,,,
+261,,Naval.Architecture.&.Marine.Engineering,NA310,Marine Structures I,4,, ,,Flexible Tech. Elective,4,Engineering,300
+262,,Naval.Architecture.&.Marine.Engineering,NA470,Foundations of Ship Design,4,, ,,Flexible Tech. Elective,4,Engineering,400
+263,,Naval.Architecture.&.Marine.Engineering,NA340,Marine Dynamics I,4,, ,,Flexible Tech. Elective,4,Engineering,300
+264,,Naval.Architecture.&.Marine.Engineering,NA475,Capstone Design Course,4,, ,,Flexible Tech. Elective,4,Engineering,300
+265,,Naval Architecture and Marine Engineering,NA320+NA321,Marine Hydrodynamics I & II,4+4,,VM320,,,3,NULL,NULL
+266,,Naval Architecture and Marine Engineering,NA387,Introduction to Probability and Statistics for Engineers,3,,VE401,,,4,NULL,NULL
+267,,Naval Architecture and Marine Engineering,NA491+NA492,Marine Engineering Lab I & II,3+2,,VM395,,,4,NULL,NULL
+268,,Naval Architecture and Marine Engineering,NA410,Marine Structures II,4,,,,Flexible Technical Elective,4,NULL,400
+269,,Naval Architecture and Marine Engineering,NA483,Marine Control Systems,3,,,,Flexible Technical Elective,3,NULL,400
+,,,,,,,,,,,,
+270,,Nuclear Engineering and Radiological Sciences,NERS441,Nuclear Reactor Theory I,4,, ,NULL,Flxible Technical Elective,4,ECE ME,NULL
+271,,Nuclear Engineering and Radiological Sciences ,NERS425,Application of Radiation,4,, ,NULL,Flxible Technical Elective,4,ECE ME,NULL
+272,,Nuclear Engineering and Radiological Sciences,NERS575 (EECS519),Plasma Generation and Diagnostics Laboratory,4,,VM495,,,4,NULL,NULL
+273,,Nuclear Engineering and Radiological Sciences,NERS575 / EECS519,Plasma Generation and Diagnostics Laboratory,4,, ,,Flexible Technical Elective,4,NULL,400
+274,,Nuclear Engineering and Radiological Sciences,NERS320,Mathematical Method in Nuclear Engineering,4,, ,,Advanced Mathematics,4,ME,400
+275,,Nuclear Engineering and Radiological Sciences,NERS315,Nuclear Instrumentation Laboratory,4,, ,,Flexible Technical Elective,4,NULL,300
+276,,Nuclear Engineering and Radiological Sciences,NERS444,Thermal-hydraulics of nuclear systems,3,, ,,Flexible Technical Elective,3,NULL,300
+277,,Nuclear Engineering,NERSxxx,Laboratory Course (Above NERS315),,,VM495,,,4,NULL,NULL
+,,,,,,,,,,,,
+378,,Taubman College of Architecture and Urban Planning,ARCH201,"ARCH 201, Basic Drawing",4,,,,,4,Studio Art (Intellectual Breadth),200
