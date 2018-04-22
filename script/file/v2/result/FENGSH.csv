@@ -1,4 +1,4 @@
-name,123,Student ID:,123
+name,123,Student ID:,12341
 
 Engineering Foundation,39 credits required,0 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
@@ -36,33 +36,33 @@ Ve280,Prog. & Data Structure,"Vv156/186,Vg101",⎯,,,
 Ve230,Electromagnetics I,"Vv255/285, Vp240/260, Ve215",⎯,,,
 Ve270,Intro to Logic Design,Vg101 or equivalent,⎯,,,
 Ve311,Electronic Circuits,Ve216,⎯,,,
-Ve320,Semiconductor Dev. Theo.,"Ve215, Vp240/260",⎯,4,,转自:EECS320
-Ve370,Intro to Comp. Org.,"Ve270, Ve280",⎯,4,,转自:EECS370
+Ve320,Semiconductor Dev. Theo.,"Ve215, Vp240/260",⎯,4,,直接转自:EECS320
+Ve370,Intro to Comp. Org.,"Ve270, Ve280",⎯,4,,直接转自:EECS370
 Ve300,Technical Communication,Vg100,⎯,,,
 Ve401,Probablistic Meth. in Engr.,"Vv156/186, 255/285, 256/286",⎯,,,
 Ve450,Capstone Design,"Ve216, Ve280, Ve311",Ve496,,,
-Ve496,Technical Communication,Ve300,Ve450,2,,转自:TCHNCLCM496
+Ve496,Technical Communication,Ve300,Ve450,2,,直接转自:TCHNCLCM496
 
 
 Core Elective,0 credits required,7 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
-VE281,Data Structures and Algorithms,-,-,4,,转自课程表:EECS281
-VE460,Control Systems Analysis and Design,-,-,3,,转自课程表:EECS460
+VE281,Data Structures and Algorithms,-,-,4,,转自对应课表:EECS281
+VE460,Control Systems Analysis and Design,-,-,3,,转自对应课表:EECS460
 
 
 Upper Level Technical Elective,7 credits required,4 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
-EECS498,Special topic: Introduction to Natural Language Processing,-,-,4,,此类别课程: EECS498 无对应课号
+EECS498,Special topic: Introduction to Natural Language Processing,-,-,4,,无对应课程，转此类别: EECS498
 
 
 Flexible Technical Elective,16 credits required,4 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
-AE335,Aerospace Propulsion,-,-,4,,此类别课程: AE335 无对应课号
+AE335,Aerospace Propulsion,-,-,4,,无对应课程，转此类别: AE335
 
 
 General Elective,7 credits required,6 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
-AE205,Introduction to Aerospace Engineering Systems,-,-,3,,此类别课程: AE205 无对应课号
+AE205,Introduction to Aerospace Engineering Systems,-,-,3,,无对应课程，转此类别: AE205
 NM001,NOT IN MAP,-,-,3,,无法匹配该课程: NM001 转为普通类别
 
 
