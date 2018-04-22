@@ -1,5 +1,3 @@
-This database is updated to 2017/05/25. The undergraduate education office of JI reserves the right to review and revise it in the future.,,,,,,,,,,,,,
-Code,Chinese Title,English Title,Credit,Lecture Hour,Lab Hour,Prerequisite,Category,Sub-Category,Category in Minor,Class Cap,Instructor(s),Remark,
 VB116,性别生物学,Biology of Sex,3,45,,,Intellectual Breadth,Natural Sciences,,,William Fink (UM),SU2014,
 VB172,生物学导论,Intro to Biology,2,30,,,Intellectual Breadth,Natural Sciences,,,Margit Burmeister(UM),,
 VC130,大学化学,Chemistry ,3.5,52.5,,,,,,,,Offered before 2007,
@@ -191,7 +189,7 @@ VV454,工程数学B,Boundary Value Problems for Partial Differential Equations,4
 VV471,数值计算B,Introduction to Numerical Methods,4,60,,Vg101 and Vv216/256/286,Advanced Mathematics,,,,,No credit after Math 371,
 VV556,应用数学方法（1）,Methods of Applied Math I,4,60,,Vv216/256/286,Advanced Mathematics,,,,Horst Hohberger,,
 VV557,应用数学方法（2）,Methods of Applied Mathematics II,4,60,,Vv216/256/286,Advanced Mathematics,,,,Horst Hohberger,,
-VV570,工程数值分析,"Introduction to Engineering 
+VV570,工程数值分析,"Introduction to Engineering
 Numerical Analysis",3,45,,Vv216/256/287,Advanced Mathematics,,,,"Jing Liu, Manuel Charlemagne",,
 VW100,德语（1）,German I,2,30,,,Intellectual Breadth,Humanities,,25,Quanbo Xie,VW100+VW200=VY200(2007 students only).Renamed to VW110,
 VW101,德语,German,2,30,,,Intellectual Breadth,Humanities,,,,,
