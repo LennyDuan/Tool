@@ -3,7 +3,9 @@ class courseList:
     def __init__(self, code, name_en, credit, category)
 
     def toString(self):
-        print('Course ' + self.code + ' : [' + self.name_en + '] Credits: [' +  self.credit + ']')
+        print('Course ' + self.code + ' : [' + self.name_en +
+         '] Credits: [' +  self.credit + '] Category: [' + self.category + ']')
+         
 class DegreeCategory:
 
     def __init__(self, name, required):
