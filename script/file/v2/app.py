@@ -70,7 +70,7 @@ transcript = createTranscriptMapper(transcript, Tpath)
 print('\n正在转换成绩单数据...\n')
 #print('\n###### Start Mapper Transcrit to Degree Course ######\n')
 for key, val in transcript.items():
-    map(val, mapper, template)
+    map(val, mapper, template, course_list)
 
 #for key, val in template.items():
     #val.toString()
@@ -94,7 +94,7 @@ print('\n------------------------------------------------\n')
 print('\n转换成功，开始生成最终成绩表格...\n')
 #print('\n###### Start Create Final CSV File ######\n')
 Opath = dir + '/result/' + name + '.csv';
-writeCSV(category, Opath, major, course_list)
+writeCSV(category, Opath, major)
 print('\n表格生成成功成功，请查看学习成绩表: ' + Opath + '\n')
 #print('\n###### Start Create Final CSV File ######\n')
 print('\n------------------------------------------------\n')
