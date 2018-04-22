@@ -1,6 +1,10 @@
 class CourseList:
 
-    def __init__(self, code, name_en, credit, category)
+    def __init__(self, code, name_en, credit, category):
+        self.code = code
+        self.name_en = name_en
+        self.credit = credit
+        self.category = category
 
     def toString(self):
         print('Course ' + self.code + ' : [' + self.name_en +
