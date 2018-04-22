@@ -1,7 +1,7 @@
 import csv
 from objects import DegreeCourse
 
-def map(transcript, mapper, template):
+def map(transcript, mapper, template, course_list):
     code = transcript.code
     if code in mapper:
         courseMapper = mapper[code]
@@ -30,7 +30,16 @@ def map(transcript, mapper, template):
                 #print('Equivalency: ' + equivalency)
                 ## Put course in to category with equivalency CODE
                 nbr = equivalency
-                note = '转自:' + code
+                note = '转自课程表:' + code
+                if nbr in course_list:
+                    courseInList = course_list[nbr]
+                    department = courseInList.category
+                    credits = courseInList.credit
+                    degreeCourse = DegreeCourse(nbr, course_name, department,
+                    prerequisite, corequisite, credits, '', note)
+                    template[nbr] = degreeCourse
+                else :
+                    print('Cannot find the code: ' + nbr + ' in course_list')
                 # No courseList now, need to Initializing...
                 # findDepartment = courseList[nbr]
                 # degreeCourse = DegreeCourse(nbr, course_name, findDepartment,

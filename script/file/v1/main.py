@@ -27,10 +27,8 @@ def map(transcript, mapper, template):
         if not inTempate:
             #print('Not find in template: ' + code)
             if equivalency:
-                #print('Equivalency: ' + equivalency)
-                ## Put course in to category with equivalency CODE
-                nbr = equivalency
-                note = '转自:' + code
+                # print('Equivalency: ' + equivalency)
+                # Put course in to category with equivalency CODE    
                 # No courseList now, need to Initializing...
                 # findDepartment = courseList[nbr]
                 # degreeCourse = DegreeCourse(nbr, course_name, findDepartment,
