@@ -19,7 +19,7 @@ def map(transcript, mapper, template, course_list):
                 #print('Equivalency: ' + equivalency + ' Key in template:' + key)
                 #print(courseMapper.toString())
                 val.chrs = credits
-                val.note = '转自:' + code
+                val.note = '直接转自:' + code
                 inTempate = True
                 break
 
@@ -30,7 +30,7 @@ def map(transcript, mapper, template, course_list):
                 #print('Equivalency: ' + equivalency)
                 ## Put course in to category with equivalency CODE
                 nbr = equivalency
-                note = '转自课程表:' + code
+                note = '转自对应课表:' + code
                 if nbr in course_list:
                     courseInList = course_list[nbr]
                     department = courseInList.category
@@ -48,7 +48,7 @@ def map(transcript, mapper, template, course_list):
             else :
                 #print('Equivalency should be null: ' + equivalency)
                 nbr = code
-                note = '此类别课程: ' + nbr + ' 无对应课号'
+                note = '无对应课程，转此类别: ' + nbr + ''
                 degreeCourse = DegreeCourse(nbr, course_name, department,
                 prerequisite, corequisite, credits, '', note)
                 template[nbr] = degreeCourse
