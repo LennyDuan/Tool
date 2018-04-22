@@ -94,7 +94,7 @@ print('\n------------------------------------------------\n')
 print('\n转换成功，开始生成最终成绩表格...\n')
 #print('\n###### Start Create Final CSV File ######\n')
 Opath = dir + '/result/' + name + '.csv';
-writeCSV(category, Opath, major)
+writeCSV(category, Opath, major, course_list)
 print('\n表格生成成功成功，请查看学习成绩表: ' + Opath + '\n')
 #print('\n###### Start Create Final CSV File ######\n')
 print('\n------------------------------------------------\n')
