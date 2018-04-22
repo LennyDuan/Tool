@@ -3,6 +3,7 @@ from mapper.mapper import createCourseMapper
 from mapper.transcript import createTranscriptMapper
 from mapper.template import createDegreeCourseTemplate
 from mapper.category import createDegreeCourseCategory
+from mapper.course_list import createCourseList
 from main import map, writeCSV
 
 ## Initializing
@@ -24,6 +25,7 @@ mapper = createCourseMapper(mapper, Mpath)
 ## Init Template
 template = {}
 category = {}
+course_list = {}
 #print('\n###### Start Creating Degree Check Sheet Template ######\n')
 major = input('请输入学生专业 ECE 或者 ME: \n')
 Mpath = dir + '/degree_progress_check_sheet/init/' + major + '.csv'
@@ -40,6 +42,9 @@ category = createDegreeCourseCategory(category, Cpath)
 #for key, val in category.items():
     #val.toString()
 
+CLpath = dir + 'course_list/course_list.csv'
+assert CLpath
+course_list = createCourseList(courseList, CLpath)
 #print('\n###### End Creating Degree Check Sheet Template Successful ######\n')
 print('\n初始化成功')
 print('\n------------------------------------------------\n')
