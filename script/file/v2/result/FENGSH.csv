@@ -1,4 +1,4 @@
-name,1231,Student ID:,123
+name,123,Student ID:,123
 
 Engineering Foundation,39 credits required,0 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
@@ -25,7 +25,7 @@ Vp241,Physics Lab II,⎯,Vp240/260,,,
 Intellectual Breadth,16 credits required,2 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
 Vg496,Ethics & Professionalism,Vg100,⎯,,,
-NM002,NOT IN MAP,-,-,2,2,直接转化 Intellectual Breadth 课程: NM002
+NM002,NOT IN MAP,-,-,2,,直接转化 Intellectual Breadth 课程: NM002
 
 
 Program Subject,43 credits required,10 credits completed
@@ -44,24 +44,26 @@ Ve450,Capstone Design,"Ve216, Ve280, Ve311",Ve496,,,
 Ve496,Technical Communication,Ve300,Ve450,2,,转自:TCHNCLCM496
 
 
-Core Elective,0 credits required,0 credits completed
+Core Elective,0 credits required,7 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
+VE281,Data Structures and Algorithms,-,-,4,,转自课程表:EECS281
+VE460,Control Systems Analysis and Design,-,-,3,,转自课程表:EECS460
 
 
 Upper Level Technical Elective,7 credits required,4 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
-EECS498,Special topic: Introduction to Natural Language Processing,-,-,4,4,此类别课程: EECS498 无对应课号
+EECS498,Special topic: Introduction to Natural Language Processing,-,-,4,,此类别课程: EECS498 无对应课号
 
 
 Flexible Technical Elective,16 credits required,4 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
-AE335,Aerospace Propulsion,-,-,4,4,此类别课程: AE335 无对应课号
+AE335,Aerospace Propulsion,-,-,4,,此类别课程: AE335 无对应课号
 
 
 General Elective,7 credits required,6 credits completed
 Nbr,Course Name,Prerequisite,Corequisite,Crs,Grade,Note
-AE205,Introduction to Aerospace Engineering Systems,-,-,3,3,此类别课程: AE205 无对应课号
-NM001,NOT IN MAP,-,-,3,3,无法匹配该课程: NM001 转为普通类别
+AE205,Introduction to Aerospace Engineering Systems,-,-,3,,此类别课程: AE205 无对应课号
+NM001,NOT IN MAP,-,-,3,,无法匹配该课程: NM001 转为普通类别
 
 
 Required by MoE and SJTU,22 credits required,0 credits completed
