@@ -42,11 +42,11 @@ category = createDegreeCourseCategory(category, Cpath)
 #for key, val in category.items():
     #val.toString()
 
-CLpath = dir + 'course_list/course_list.csv'
+CLpath = dir + '/course_list/course_list.csv'
 assert CLpath
-course_list = createCourseList(courseList, CLpath)
-for key, val in course_list.items():
-    val.toString()
+course_list = createCourseList(course_list, CLpath)
+#for key, val in course_list.items():
+    #val.toString()
 
 #print('\n###### End Creating Degree Check Sheet Template Successful ######\n')
 print('\n初始化成功')
