@@ -1,4 +1,5 @@
 import os
+import sys
 from security.credentials import checkCredentialsExist, validAccount, createCredential, validPassword
 
 print('\nInitializing...')
@@ -6,7 +7,7 @@ print('-----------------------')
 loggedIn = False;
 while not loggedIn:
     if checkCredentialsExist():
-        print('Trying to log in...')
+        print('Trying to log in PassPass...')
         account = input('Please enter account:')
         password = input('Please enter password:')
         if not validAccount(account, password):
@@ -18,7 +19,21 @@ while not loggedIn:
         createCredential()
         loggedIn = False
 print('-----------------------')
-print('Login successfully...\n')
-
+print('Please choose your next steps:')
+print('1: List all accounts')
+print('2: Get a account')
+print('3: Creat/Save a new account')
+print('0: Exit')
+print('-----------------------\n')
+option = input('Input a number:')
 if validPassword():
-    print('Valid password...')
+    if option == 1:
+        print('Listing all accounts...\n')
+    elif option == 2:
+        print('Get an exist account...\n')
+    elif option == 4:
+        print('Creating a new account...\n')
+    elif option == 0:
+        sys.exit('Exiting...\n')
+    else:
+        sys.exit('Invalid option...\n')

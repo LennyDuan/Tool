@@ -33,7 +33,7 @@ def validPassword():
                 valid = False
 
 def createCredential():
-    print('Creating a new account...')
+    print('Creating a new account for PassPass...')
     account = input('Please enter account:')
     password = input('Please enter password:')
     with open(credentialsPath, 'w') as csv_file:
