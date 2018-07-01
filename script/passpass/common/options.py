@@ -10,4 +10,4 @@ def selectOption():
         return int(input('Select option:'))
     except:
         print('[Error]: Invalid Input')
-        selectOption()
+        return selectOption()
