@@ -18,25 +18,26 @@ while not loggedIn:
     else:
         createCredential()
         loggedIn = False
-print('-----------------------')
+print('\n-----------------------')
 print('Please choose your next steps:')
 print('1: List all accounts')
 print('2: Get a account')
 print('3: Creat/Save a new account')
 print('0: Exit')
 print('-----------------------\n')
-option = input('Input a number:')
+option = int(input('Input a number:'))
 
-if option == 1:
-    if validPassword():
-        print('Listing all accounts...\n')
-elif option == 2:
-    if validPassword():
-        print('Get an exist account...\n')
-elif option == 4:
-    if validPassword():
-        print('Creating a new account...\n')
-elif option == 0:
-    sys.exit('Exiting...\n')
-else:
-    sys.exit('Invalid option...\n')
+while option is not 0:
+    if option == 1:
+        if validPassword():
+            print('Listing all accounts...\n')
+    elif option == 2:
+        if validPassword():
+            print('Get an exist account...\n')
+    elif option == 3:
+        if validPassword():
+            print('Creating a new account...\n')
+    elif option == 0:
+        sys.exit('Exiting...\n')
+    else:
+        sys.exit('Invalid option...\n')
