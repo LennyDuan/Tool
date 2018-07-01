@@ -1,5 +1,5 @@
 import os
-from security.credentials import checkCredentialsExist, validAccount, createCredential
+from security.credentials import checkCredentialsExist, validAccount, createCredential, validPassword
 
 print('\nInitializing...')
 print('-----------------------')
@@ -19,3 +19,6 @@ while not loggedIn:
         loggedIn = False
 print('-----------------------')
 print('Login successfully...\n')
+
+if validPassword():
+    print('Valid password...')

@@ -19,6 +19,19 @@ def validAccount(account, password):
         else:
             return False
 
+def validPassword():
+    valid = False
+    while not valid:
+        password = input('Please enter password:')
+        credentials = csv.reader(open(credentialsPath))
+        for arr in credentials:
+            if hashStr(password) == arr[1]:
+                valid = True
+                return True
+            else:
+                print('Inavlid password, unable to excute your command')
+                valid = False
+
 def createCredential():
     print('Creating a new account...')
     account = input('Please enter account:')
