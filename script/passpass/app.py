@@ -26,14 +26,17 @@ print('3: Creat/Save a new account')
 print('0: Exit')
 print('-----------------------\n')
 option = input('Input a number:')
-if validPassword():
-    if option == 1:
+
+if option == 1:
+    if validPassword():
         print('Listing all accounts...\n')
-    elif option == 2:
+elif option == 2:
+    if validPassword():
         print('Get an exist account...\n')
-    elif option == 4:
+elif option == 4:
+    if validPassword():
         print('Creating a new account...\n')
-    elif option == 0:
-        sys.exit('Exiting...\n')
-    else:
-        sys.exit('Invalid option...\n')
+elif option == 0:
+    sys.exit('Exiting...\n')
+else:
+    sys.exit('Invalid option...\n')
