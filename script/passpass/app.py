@@ -26,7 +26,6 @@ print('3: Creat/Save a new account')
 print('0: Exit')
 print('-----------------------\n')
 option = int(input('Input a number:'))
-
 while option is not 0:
     if option == 1:
         if validPassword():
@@ -40,4 +39,6 @@ while option is not 0:
     elif option == 0:
         sys.exit('Exiting...\n')
     else:
-        sys.exit('Invalid option...\n')
+        print('Invalid option...\n')
+        
+    option = int(input('Input a number:'))
