@@ -1,6 +1,7 @@
 import os
 import sys
 from security.credentials import checkCredentialsExist, validAccount, createCredential, validPassword
+from common.options import selectOption
 
 print('\nInitializing...')
 print('-----------------------')
@@ -18,27 +19,20 @@ while not loggedIn:
     else:
         createCredential()
         loggedIn = False
-print('\n-----------------------')
-print('Please choose your next steps:')
-print('1: List all accounts')
-print('2: Get a account')
-print('3: Creat/Save a new account')
-print('0: Exit')
-print('-----------------------\n')
-option = int(input('Input a number:'))
+
+option = selectOption()
 while option is not 0:
     if option == 1:
         if validPassword():
-            print('Listing all accounts...\n')
+            print('Listing all accounts...')
     elif option == 2:
         if validPassword():
-            print('Get an exist account...\n')
+            print('Get an exist account...')
     elif option == 3:
         if validPassword():
-            print('Creating a new account...\n')
+            print('Creating a new account...')
     elif option == 0:
-        sys.exit('Exiting...\n')
+        sys.exit('Exiting...')
     else:
-        print('Invalid option...\n')
-        
-    option = int(input('Input a number:'))
+        print('[Error]:Invalid option...')
+    option = selectOption()
