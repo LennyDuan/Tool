@@ -11,7 +11,7 @@ def listAllAccounts():
     file = csv.reader(open(path))
     for arr in file:
         printList(arr)
-    print('-----------------------')
+    print('-----------------------\n')
 
 def printList(arr):
     data = PassPass(arr[0], arr[1], arr[2], arr[3])

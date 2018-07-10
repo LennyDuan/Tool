@@ -26,17 +26,17 @@ option = selectOption()
 while option is not 0:
     if option == 1:
         if validPassword():
-            print('Listing all accounts...')
+            print('\nListing all accounts...')
             listAllAccounts()
     elif option == 2:
         if validPassword():
-            print('Get an exist account...')
+            print('\nGet an exist account...')
     elif option == 3:
         if validPassword():
-            print('Creating a new account...')
+            print('\nCreating a new account...')
             createAccount()
     elif option == 0:
-        sys.exit('Exiting...')
+        sys.exit('\nExiting...')
     else:
-        print('[Error]:Invalid option...')
+        print('\n[Error]:Invalid option...')
     option = selectOption()

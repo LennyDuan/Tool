@@ -17,7 +17,7 @@ def createAccount():
     writeToCSV(data)
     print('New account have been saved: ')
     data.toString()
-    print('-----------------------')
+    print('-----------------------\n')
 
 def writeToCSV(data):
     with open(path, 'a') as csv_file:
