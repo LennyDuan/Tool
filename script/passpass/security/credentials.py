@@ -19,8 +19,7 @@ def validAccount(account, password):
         else:
             return False
 
-def validPassword():
-    valid = False
+def validPassword(valid):
     while not valid:
         password = input('Please enter password:')
         credentials = csv.reader(open(credentialsPath))
