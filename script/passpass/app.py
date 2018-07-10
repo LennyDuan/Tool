@@ -26,14 +26,17 @@ option = selectOption()
 valid = False
 while option is not 0:
     if option == 1:
-        if validPassword(valid) or valid:
+        if valid or validPassword():
+            valid = True
             print('\nListing all accounts...')
             listAllAccounts()
     elif option == 2:
-        if validPassword(valid) or valid:
+        if valid or validPassword():
+            valid = True
             print('\nGet exist accounts...')
     elif option == 3:
-        if validPassword(valid) or valid:
+        if valid or alidPassword():
+            valid = True
             print('\nCreating a new account...')
             createAccount()
     elif option == 0:
