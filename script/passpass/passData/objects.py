@@ -7,7 +7,7 @@ class PassPass
         if extra:
             self.extra = extra
         else:
-            self.extra = None
+            self.extra = 'None' 
 
     def toString(self):
         print('Name: ' + self.name + ' Account: ' + self.account

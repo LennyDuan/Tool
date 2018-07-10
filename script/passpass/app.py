@@ -2,7 +2,7 @@ import os
 import sys
 from security.credentials import checkCredentialsExist, validAccount, createCredential, validPassword
 from common.options import selectOption
-from option
+from options.listAllAccounts import listAllAccounts
 
 print('\nInitializing...')
 print('-----------------------')
