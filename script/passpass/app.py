@@ -24,7 +24,8 @@ while not loggedIn:
         loggedIn = False
 
 option = selectOption()
-valid = False
+# setup validation:
+valid = True
 while option is not 0:
     if option == 1:
         if valid or validPassword():
