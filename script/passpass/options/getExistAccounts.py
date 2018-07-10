@@ -18,6 +18,5 @@ def checkList(appName, arr):
     data = PassPass(arr[0], arr[1], arr[2], arr[3])
     if str(data.name) == str(appName):
         data.toString()
-    elif: str(appName) in str(data.name):
-        print('|Similar|')
-        data.toString()
+    elif str(appName) in str(data.name):
+        print('|Similar| - '+ data.toString())
