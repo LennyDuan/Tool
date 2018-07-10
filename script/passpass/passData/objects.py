@@ -1,4 +1,4 @@
-class PassPass
+class PassPass:
 
     def __init__(self, name, account, password, extra):
         self.name = name
@@ -7,9 +7,9 @@ class PassPass
         if extra:
             self.extra = extra
         else:
-            self.extra = 'None' 
+            self.extra = 'None'
 
     def toString(self):
-        print('Name: ' + self.name + ' Account: ' + self.account
-        + ' Password: ' + self.password + ' Extra: '
-        + self.extra
+        print('Name: [' + self.name + '] Account: [' + self.account
+        + '] Password: [' + self.password + '] Extra: ['
+        + self.extra + ']')
