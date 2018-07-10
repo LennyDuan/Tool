@@ -6,9 +6,9 @@ dir = os.getcwd()
 path = dir + '/passData/passpass.csv'
 
 
-def listAllAccounts():
+def getExistAccounts():
     print('-----------------------')
-    appName = 'App Name: '
+    appName = input('App Name: ')
     file = csv.reader(open(path))
     for arr in file:
         checkList(appName, arr)
@@ -16,5 +16,8 @@ def listAllAccounts():
 
 def checkList(appName, arr):
     data = PassPass(arr[0], arr[1], arr[2], arr[3])
-    if data.name is appName:
+    if str(data.name) == str(appName):
+        data.toString()
+    elif: str(appName) in str(data.name):
+        print('|Similar|')
         data.toString()

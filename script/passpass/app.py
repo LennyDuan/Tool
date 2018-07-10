@@ -4,6 +4,7 @@ from security.credentials import checkCredentialsExist, validAccount, createCred
 from common.options import selectOption
 from options.listAllAccounts import listAllAccounts
 from options.createAccount import createAccount
+from options.getExistAccounts import getExistAccounts
 
 print('\nInitializing...')
 print('-----------------------')
@@ -34,6 +35,7 @@ while option is not 0:
         if valid or validPassword():
             valid = True
             print('\nGet exist accounts...')
+            getExistAccounts()
     elif option == 3:
         if valid or alidPassword():
             valid = True
