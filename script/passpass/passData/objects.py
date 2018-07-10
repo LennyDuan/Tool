@@ -10,6 +10,6 @@ class PassPass:
             self.extra = 'None'
 
     def toString(self):
-        print('Name: [' + self.name + '] Account: [' + self.account
+        print('App: [' + self.name + '] Account: [' + self.account
         + '] Password: [' + self.password + '] Extra: ['
         + self.extra + ']')

@@ -26,9 +26,7 @@ while option is not 0:
     if option == 1:
         if validPassword():
             print('Listing all accounts...')
-            print('-----------------------')
             listAllAccounts()
-            print('-----------------------')
     elif option == 2:
         if validPassword():
             print('Get an exist account...')
