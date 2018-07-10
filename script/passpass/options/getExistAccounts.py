@@ -2,9 +2,8 @@ import csv
 import os
 from passData.objects import PassPass
 
-dir = os.getcwd()
-path = dir + '/passData/passpass.csv'
-
+dir = os.path.dirname(os.path.abspath(__file__))
+path = dir + '/../passData/passpass.csv'
 
 def getExistAccounts():
     print('-----------------------')

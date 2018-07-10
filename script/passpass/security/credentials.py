@@ -2,8 +2,8 @@ import os
 import csv
 import hashlib
 
-dir = os.getcwd()
-credentialsPath = dir + '/security/credentials.csv'
+dir = os.path.dirname(os.path.abspath(__file__))
+credentialsPath = dir + '/credentials.csv'
 
 def checkCredentialsExist():
     if not os.path.exists(credentialsPath):
