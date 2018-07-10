@@ -19,4 +19,4 @@ def checkList(appName, arr):
     if str(data.name) == str(appName):
         data.toString()
     elif str(appName) in str(data.name):
-        print('|Similar| - '+ data.toString())
+        print('|Similar| - ' + data.returnString())

@@ -13,3 +13,6 @@ class PassPass:
         print('App: [' + self.name + '] Account: [' + self.account
         + '] Password: [' + self.password + '] Extra: ['
         + self.extra + ']')
+
+    def returnString(self):
+        return 'App: [' + self.name + '] Account: [' + self.account + '] Password: [' + self.password + '] Extra: [' + self.extra + ']'
