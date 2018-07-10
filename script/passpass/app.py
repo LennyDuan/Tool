@@ -3,6 +3,7 @@ import sys
 from security.credentials import checkCredentialsExist, validAccount, createCredential, validPassword
 from common.options import selectOption
 from options.listAllAccounts import listAllAccounts
+from options.createAccount import createAccount
 
 print('\nInitializing...')
 print('-----------------------')
@@ -33,6 +34,7 @@ while option is not 0:
     elif option == 3:
         if validPassword():
             print('Creating a new account...')
+            createAccount()
     elif option == 0:
         sys.exit('Exiting...')
     else:

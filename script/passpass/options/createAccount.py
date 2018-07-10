@@ -9,16 +9,25 @@ def createAccount():
     print('-----------------------')
     appName = input('New App Name: ')
     account = input('Input account: ')
-    passWord = input('Input password: ')
+    password = input('Input password: ')
     extra = input('Input extra information: ')
+    if extra is None:
+        extra = ' None'
     data = PassPass(appName, account, password, extra)
     writeToCSV(data)
+    print('New account have been saved: ')
+    data.toString()
     print('-----------------------')
 
 def writeToCSV(data):
-    with open(path, 'w') as csv_file:
+    with open(path, 'a') as csv_file:
         wr = csv.writer(csv_file, delimiter=',')
-        line = data.name + ',' + data.account + ','
-        + data.password + ',' + data.extra
+        line = str(data.name)
+        line += ','
+        line += str(data.account)
+        line += ','
+        line += str(data.password)
+        line += ','
+        line += str(data.extra)
         csv_file.write(line)
         csv_file.write('\n')
